@@ -1,0 +1,42 @@
+{
+  "_leeme": "Agenda. Campos: id, fecha (AAAA-MM-DD), hora (opcional), titulo, lugar, nota, ejemplo. Las fiestas de fecha fija de municipio.json (pueblo.fiestas[].fecha_fija) se añaden solas: no hace falta repetirlas aquí.",
+  "eventos": [
+    {
+      "id": "itv-movil-2026-10-13",
+      "fecha": "2026-10-13",
+      "titulo": "ITV móvil en Montemolín",
+      "lugar": "Polideportivo",
+      "nota": "También el día 14. Horario y cita: el bando del Ayuntamiento."
+    },
+    {
+      "id": "iae-2026-fin-plazo",
+      "fecha": "2026-11-16",
+      "titulo": "Último día para pagar el IAE de 2026 sin recargo",
+      "nota": "El pago voluntario empezó el 15 de septiembre. Se paga con tarjeta o Bizum en la web del OAR, en el banco o en Correos."
+    },
+    {
+      "id": "teatro-llevame-pal-pueblo",
+      "fecha": "2026-09-19",
+      "hora": "21:45",
+      "titulo": "Teatro: «Llévame p’al pueblo»",
+      "lugar": "Corrala de Comedias",
+      "nota": "Comedia de Lupe Osuna, de EXTEATRO Artes Escénicas. La función se retrasó 15 minutos."
+    },
+    {
+      "id": "taller-regalate-un-rato-2",
+      "fecha": "2026-09-15",
+      "hora": "11:30",
+      "titulo": "Taller «Regálate un rato para ti» (2.ª parte)",
+      "lugar": "Sala de Usos Múltiples de la Universidad Popular",
+      "nota": "Gratuito y abierto a personas adultas del municipio. Proyecto Red Arraigo (Asociación Anthea)."
+    },
+    {
+      "id": "teatro-tarot-y-tentempie",
+      "fecha": "2026-09-11",
+      "hora": "21:30",
+      "titulo": "Teatro: «Tarot y tentempié»",
+      "lugar": "Corrala de Comedias",
+      "nota": "Comedia de Francis Lucas, de Verbo Producciones."
+    }
+  ]
+}

@@ -1,0 +1,1654 @@
+{
+  "_leeme": "Datos del municipio. Lo genera ../ayuntamiento-montemolin-bocetos/_scripts/municipio.mjs; las fuentes de cada dato están en ayuntamiento-montemolin-bocetos/DATOS.md. Lo que no está confirmado lleva \"ejemplo\": true y sale con la etiqueta «Ejemplo».",
+  "slug": "montemolin",
+  "nombre": "Montemolín",
+  "nombre_corto": "Montemolín",
+  "provincia": "Badajoz",
+  "comarca": "Tentudía",
+  "gentilicio": "montemolineses",
+  "habitantes": {
+    "valor": 1231,
+    "fuente": "INE, padrón a 1 de enero de 2025"
+  },
+  "lema": null,
+  "propuesta": true,
+  "indexar": false,
+  "url": "https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/",
+  "fecha_datos": "2026-10-05",
+  "web_actual": "https://montemolin.es",
+  "contacto": {
+    "direccion": "Plaza de la Constitución, 1",
+    "cp": "06291",
+    "telefono": "924 510 001",
+    "fax": "924 510 024",
+    "correo": "ayuntamiento@montemolin.es",
+    "mapa_consulta": "Ayuntamiento de Montemolín, Plaza de la Constitución 1, 06291 Montemolín, Badajoz"
+  },
+  "horario": {
+    "texto": "Lunes a viernes, de 8:00 a 14:00",
+    "tramos": [
+      {
+        "dias": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "de": "08:00",
+        "a": "14:00"
+      }
+    ]
+  },
+  "redes": [],
+  "canal_avisos": {
+    "nombre": "Univ Pop Montemolín, en Facebook",
+    "url": "https://www.facebook.com/upmontemolin",
+    "texto": "El Ayuntamiento publica casi a diario sus bandos y avisos en la página de Facebook de la Universidad Popular, «Univ Pop Montemolín (Up Montemolín)». No hay Bandomóvil ni otro canal propio.",
+    "otros": [],
+    "pasos": [
+      "Abra Facebook y busque «Univ Pop Montemolín».",
+      "Pulse «Seguir»: ahí salen los bandos, los avisos y las actividades."
+    ]
+  },
+  "plenos_video": null,
+  "tablon_autorizado": false,
+  "tablon_max": 30,
+  "hoja": {
+    "id": "",
+    "pestanas": {
+      "avisos": "Avisos",
+      "agenda": "Agenda",
+      "noticias": "Noticias"
+    }
+  },
+  "legal": {
+    "titular": "Ayuntamiento de Montemolín",
+    "nif": "P0608600C",
+    "dir3": "L01060861",
+    "direccion_registro": "Plaza de la Constitución, 1"
+  },
+  "escudo_nota": "Escudo de Wikimedia Commons (Erlenmeyer, CC BY-SA 4.0), dibujado según el blasón del Real Decreto 1624/1977 (BOE de 7 de julio de 1977). El de la sede electrónica tiene el primer cuartel azul y no coincide con el BOE.",
+  "escudo_credito": {
+    "autor": "Erlenmeyer",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Escudo_de_Montemol%C3%ADn_(Badajoz).svg"
+  },
+  "corporacion": {
+    "legislatura": "2023-2027",
+    "nota": "Gobierna el PP con mayoría absoluta (5 de 9). Resultado del 28-M-2023: PP 507 votos y 5 concejales, PSOE 431 y 4 (Ministerio del Interior). Delegaciones según el BOP de 20-09-2024; el alcalde, según su bando del 9 de septiembre de 2026.",
+    "grupos": [
+      {
+        "sigla": "PP",
+        "nombre": "Partido Popular",
+        "color": "#1F5FA8",
+        "trama": "rayas",
+        "gobierno": true
+      },
+      {
+        "sigla": "PSOE",
+        "nombre": "Partido Socialista Obrero Español",
+        "color": "#C8402A",
+        "trama": "liso",
+        "gobierno": false
+      }
+    ],
+    "miembros": [
+      {
+        "nombre": "José Manuel Carbajo Galván",
+        "grupo": "PP",
+        "cargo": "Alcalde-Presidente",
+        "alcalde": true
+      },
+      {
+        "nombre": "María Isabel Molero Gómez",
+        "grupo": "PP",
+        "cargo": "Primera teniente de alcalde",
+        "delegacion": "Santa María de Nava"
+      },
+      {
+        "nombre": "Ignacio Alvarado Rey",
+        "grupo": "PP",
+        "cargo": "Segundo teniente de alcalde",
+        "delegacion": "Pallares"
+      },
+      {
+        "nombre": "Carmen Fernández Lozano",
+        "grupo": "PP",
+        "cargo": "Concejala delegada",
+        "delegacion": "Educación, Cultura, Mujer, Turismo y Asociaciones"
+      },
+      {
+        "nombre": "Encarnación Valverde Luna",
+        "grupo": "PP",
+        "cargo": "Concejala delegada",
+        "delegacion": "Bienestar Social"
+      },
+      {
+        "nombre": "Alberto Oliva Cardo",
+        "grupo": "PSOE",
+        "cargo": "Concejal"
+      },
+      {
+        "nombre": "María Luna Herrojo",
+        "grupo": "PSOE",
+        "cargo": "Concejala"
+      },
+      {
+        "nombre": "Francisco Antonio Andrés Fadrique",
+        "grupo": "PSOE",
+        "cargo": "Concejal"
+      },
+      {
+        "nombre": "Víctor Manuel Jaro Ruedas",
+        "grupo": "PSOE",
+        "cargo": "Concejal"
+      }
+    ]
+  },
+  "alcaldia": {
+    "saluda": null
+  },
+  "quien": [
+    {
+      "tema": "Asuntos de Pallares",
+      "nombre": "Ignacio Alvarado Rey",
+      "cargo": "Segundo teniente de alcalde y concejal delegado de Pallares",
+      "portada": true
+    },
+    {
+      "tema": "Asuntos de Santa María de Nava",
+      "nombre": "María Isabel Molero Gómez",
+      "cargo": "Primera teniente de alcalde y concejala delegada de Santa María de Nava",
+      "portada": true
+    },
+    {
+      "tema": "Educación, cultura, mujer, turismo y asociaciones",
+      "nombre": "Carmen Fernández Lozano",
+      "cargo": "Concejala delegada de Educación, Cultura, Mujer, Turismo y Asociaciones",
+      "portada": true
+    },
+    {
+      "tema": "Bienestar social",
+      "nombre": "Encarnación Valverde Luna",
+      "cargo": "Concejala delegada de Bienestar Social",
+      "portada": true
+    },
+    {
+      "tema": "Todo lo demás",
+      "nombre": "José Manuel Carbajo Galván",
+      "cargo": "Alcalde"
+    }
+  ],
+  "servicios": [
+    {
+      "nombre": "Ayuntamiento",
+      "nota": "Segunda línea: 924 510 111 (así firman sus resoluciones). Horario del cartel de la portada de su web (2021).",
+      "direccion": "Plaza de la Constitución, 1",
+      "telefono": "924 510 001",
+      "horario": "Lunes a viernes, de 8:00 a 14:00",
+      "tramos": [
+        {
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "de": "08:00",
+          "a": "14:00"
+        }
+      ],
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Agente de Empleo y Desarrollo Local",
+      "nota": "Asesora sobre empleo, formación y empresa. No publica teléfono: pregunte en el Ayuntamiento.",
+      "horario": "Miércoles, de 8:00 a 15:00",
+      "tramos": [
+        {
+          "dias": [
+            3
+          ],
+          "de": "08:00",
+          "a": "15:00"
+        }
+      ],
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Punto de Información Catastral",
+      "nota": "En las oficinas del Ayuntamiento: certificaciones y consultas del Catastro sin ir a Badajoz.",
+      "direccion": "Plaza de la Constitución, 1",
+      "telefono": "924 510 001",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Consultorio médico de Montemolín",
+      "nota": "Cita previa. Para cita en todos los consultorios: 900 100 737.",
+      "direccion": "C/ Martín Álvarez, 35",
+      "telefono": "924 510 012",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Consultorio médico de Pallares",
+      "nota": "Cita previa.",
+      "direccion": "C/ Arturo Gazul, 1",
+      "telefono": "924 280 814",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Consultorio médico de Santa María de Nava",
+      "nota": "Cita previa.",
+      "telefono": "924 280 800",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Urgencias: Centro de Salud de Monesterio",
+      "nota": "Laborables, de 15:00 a 8:00; sábados, domingos y festivos, las 24 horas. En Monesterio, Urb. Señor del Paso, s/n.",
+      "telefono": "924 516 562",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Farmacia de Montemolín",
+      "nota": "La farmacia de guardia se consulta en el Colegio de Farmacéuticos de Badajoz.",
+      "direccion": "C/ Martín Álvarez, 4",
+      "telefono": "924 510 009",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Farmacia de Pallares",
+      "direccion": "C/ Guadalupe, 23",
+      "telefono": "924 511 140",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Colegio Nuestra Señora de la Providencia",
+      "nota": "Concertado: Infantil (de 3 a 6 años) y Primaria. Teléfono por confirmar.",
+      "direccion": "C/ Rafael Pulido",
+      "grupo": "Educación"
+    },
+    {
+      "nombre": "CRA «Río Viar» (Pallares y Santa María de Nava)",
+      "nota": "Colegio rural agrupado: tiene su sede en Puebla del Maestre (C/ Manuel Durán, s/n) y atiende también a Pallares y Santa María de Nava.",
+      "telefono": "924 023 655",
+      "grupo": "Educación"
+    },
+    {
+      "nombre": "Biblioteca Pública Municipal",
+      "nota": "Horario por confirmar. Agencias de lectura en Pallares (C/ Arturo Gazul, s/n) y en Santa María de Nava (924 511 863).",
+      "direccion": "Centro Sociocultural «Virgen de Gracia», C/ Virgen de Gracia, s/n",
+      "telefono": "924 510 145",
+      "grupo": "Cultura"
+    },
+    {
+      "nombre": "Universidad Popular",
+      "nota": "Cursos y actividades. universidadpopular@montemolin.es",
+      "direccion": "Centro Sociocultural «Virgen de Gracia», C/ Virgen de Gracia, s/n",
+      "telefono": "924 510 145",
+      "grupo": "Cultura"
+    },
+    {
+      "nombre": "Punto limpio",
+      "nota": "Fijo, en el paraje «Pilar Redondo». Días y horario por confirmar.",
+      "grupo": "Servicios"
+    },
+    {
+      "nombre": "Organismo de Recaudación (OAR): recibos e impuestos",
+      "nota": "Del IBI, el IAE y el impuesto de vehículos. ciudadania.oar@dip-badajoz.es",
+      "telefono": "924 210 700",
+      "grupo": "Servicios"
+    },
+    {
+      "nombre": "Mancomunidad de Tentudía",
+      "nota": "Municipio miembro. En Monesterio, Ronda de Segura de León, 7.",
+      "telefono": "924 516 108",
+      "horario": "Lunes a viernes, de 8:00 a 15:00",
+      "tramos": [
+        {
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "de": "08:00",
+          "a": "15:00"
+        }
+      ],
+      "grupo": "Servicios"
+    }
+  ],
+  "urgencias": [
+    {
+      "nombre": "Emergencias",
+      "telefono": "112"
+    }
+  ],
+  "listin_corto": [
+    "Emergencias",
+    "Ayuntamiento",
+    "Consultorio médico de Montemolín",
+    "Farmacia de Montemolín"
+  ],
+  "instalaciones": [
+    {
+      "grupo": "Deporte",
+      "items": [
+        {
+          "nombre": "Piscina municipal de Montemolín",
+          "texto": "Con reglamento de régimen interno (2017) y ordenanza de la tasa de uso (2017).",
+          "nota": "Horario y precios: pregunte en el Ayuntamiento."
+        },
+        {
+          "nombre": "Piscina municipal de Pallares",
+          "texto": "Con reglamento de régimen interno propio (2017)."
+        },
+        {
+          "nombre": "Gimnasio municipal",
+          "texto": "Con ordenanza de la tasa de uso (2017)."
+        },
+        {
+          "nombre": "Pista de pádel",
+          "texto": "Con ordenanza de la tasa de uso (2017). También hay pádel en Pallares."
+        },
+        {
+          "nombre": "Complejo Municipal de Deportes",
+          "nota": "Es el polideportivo; allí estará la ITV móvil el 13 y el 14 de octubre de 2026."
+        }
+      ]
+    },
+    {
+      "grupo": "Cultura y mayores",
+      "items": [
+        {
+          "nombre": "Centro Sociocultural «Virgen de Gracia»",
+          "texto": "Biblioteca y Universidad Popular.",
+          "direccion": "C/ Virgen de Gracia, s/n",
+          "telefono": "924 510 145"
+        },
+        {
+          "nombre": "Auditorio municipal",
+          "texto": "Con ordenanza de la tasa de uso (2021). En 2020 se licitó su equipamiento escénico."
+        },
+        {
+          "nombre": "Corrala de Comedias",
+          "texto": "Teatro al aire libre: en septiembre de 2026 tuvo funciones los días 11 y 19."
+        },
+        {
+          "nombre": "Hogar Club con pisos tutelados y Centro de Día",
+          "texto": "Reglamento de régimen interno de noviembre de 2025 y ordenanza de la tasa de estancia (2017)."
+        },
+        {
+          "nombre": "Hogar del Pensionista",
+          "texto": "En Santa María de Nava, su café-bar se saca a concurso (licitación de 2021)."
+        }
+      ]
+    },
+    {
+      "grupo": "Alojamiento municipal",
+      "items": [
+        {
+          "nombre": "Albergue Turístico Miramolín",
+          "texto": "Casa señorial del siglo XVIII con cuatro habitaciones (tres de cuatro plazas y una de seis), junto al Ayuntamiento.",
+          "direccion": "C/ Horacio Mota, 2",
+          "telefono": "637 273 768",
+          "precio": "Según Ruta de la Plata, sin fecha: 40 € la habitación de cuatro y 60 € la de seis.",
+          "nota": "La web del albergue que enlaza el menú de su web actual ya no existe: reserve por teléfono."
+        }
+      ]
+    },
+    {
+      "grupo": "Otros servicios",
+      "items": [
+        {
+          "nombre": "Mercado de abastos",
+          "texto": "Con ordenanza de la tasa de los puestos (2020)."
+        },
+        {
+          "nombre": "Sala de velatorio y cementerio municipal",
+          "texto": "Con ordenanzas de tasas (2021 y 2022)."
+        }
+      ]
+    }
+  ],
+  "documentos": [
+    {
+      "grupo": "Anuncios recientes en el BOP",
+      "nota": "Los que enseña su web actual en «Anuncios en el BOP». Se abren en el boletín de la Diputación.",
+      "items": [
+        {
+          "titulo": "[3279/2026] Aprobación definitiva de la modificación del Reglamento de régimen interno del proyecto de formación y empleo ESCALA",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=164004&FechaSolicitada=202608180000",
+          "fecha": "2026-08-18"
+        },
+        {
+          "titulo": "[2739/2026] Aprobación inicial de la modificación del Reglamento de régimen interno del proyecto de formación y empleo ESCALA",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=163459&FechaSolicitada=202607090000",
+          "fecha": "2026-07-09"
+        },
+        {
+          "titulo": "[1635/2026] Aprobación definitiva del Reglamento de régimen interno del proyecto de formación y empleo ESCALA",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=162352&FechaSolicitada=202605080000",
+          "fecha": "2026-05-08"
+        },
+        {
+          "titulo": "[1011/2026] Aprobación inicial del Reglamento de régimen interno del proyecto de formación y empleo ESCALA",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=161726&FechaSolicitada=202603300000",
+          "fecha": "2026-03-30"
+        },
+        {
+          "titulo": "[4832/2025] Aprobación definitiva de la modificación de la Ordenanza reguladora de la venta ambulante",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=159911&FechaSolicitada=202511170000",
+          "fecha": "2025-11-17"
+        },
+        {
+          "titulo": "[4835/2025] Aprobación definitiva de la modificación de la Ordenanza municipal reguladora del arreglo de fachadas, vallados de solares y parcelas",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=159915&FechaSolicitada=202511130000",
+          "fecha": "2025-11-13"
+        }
+      ]
+    },
+    {
+      "grupo": "Impuestos",
+      "nota": "Ordenanzas fiscales de los impuestos municipales (la web las tiene de 2017 a 2022).",
+      "items": [
+        {
+          "titulo": "Impuesto sobre construcciones instalaciones y obras",
+          "url": "https://montemolin.es/documentos/20170518132254.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza impuesto sobre actividades económicas",
+          "url": "https://montemolin.es/documentos/20170518132056.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza impuesto sobre bienes inmuebles",
+          "url": "https://montemolin.es/documentos/20170518132152.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza impuesto municipal sobre gastos suntuarios",
+          "url": "https://montemolin.es/documentos/20170518131818.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza reguladora del impuesto sobre vehículos de tracción mecánica",
+          "url": "https://montemolin.es/documentos/20200909094244.pdf",
+          "tipo": "pdf",
+          "fecha": "2020-09-09"
+        },
+        {
+          "titulo": "Ordenanza fiscal impuesto incremento de valor de los terrenos de naturaleza urbana",
+          "url": "https://montemolin.es/documentos/20220520120535.pdf",
+          "tipo": "pdf",
+          "fecha": "2022-05-20"
+        },
+        {
+          "titulo": "Ordenanza fiscal reguladora del impuesto sobre bienes inmuebles",
+          "url": "https://montemolin.es/documentos/20220520124724.pdf",
+          "tipo": "pdf",
+          "fecha": "2022-05-20"
+        }
+      ]
+    },
+    {
+      "grupo": "Tasas",
+      "nota": "Ordenanzas fiscales de las tasas, de 2014 a 2024.",
+      "items": [
+        {
+          "titulo": "Actualización tarifas ordenanzas fiscales 2014",
+          "url": "https://montemolin.es/documentos/20140328141542.pdf",
+          "tipo": "pdf",
+          "fecha": "2014-01-23"
+        },
+        {
+          "titulo": "Ordenanza de tasa por ocupación de terrenos de uso público local con mesas y otros",
+          "url": "https://montemolin.es/documentos/20140328144028.pdf",
+          "tipo": "pdf",
+          "fecha": "2014-03-28"
+        },
+        {
+          "titulo": "Ordenanza tasa licencia autotaxis y otros",
+          "url": "https://montemolin.es/documentos/20140328143200.pdf",
+          "tipo": "pdf",
+          "fecha": "2014-03-28"
+        },
+        {
+          "titulo": "Ordenanza de tasa por realización actividades administrativas de verificación y control de actuaciones urbanísticas",
+          "url": "https://montemolin.es/documentos/20140328144357.pdf",
+          "tipo": "pdf",
+          "fecha": "2014-03-28"
+        },
+        {
+          "titulo": "Ordenanza de tasa por instalación de quioscos en la vía pública",
+          "url": "https://montemolin.es/documentos/20140328143831.pdf",
+          "tipo": "pdf",
+          "fecha": "2014-03-28"
+        },
+        {
+          "titulo": "Ordenanza tasa por instalación de barracas y otros",
+          "url": "https://montemolin.es/documentos/20170517143627.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa servicio de limpieza y desinfección de vehículos",
+          "url": "https://montemolin.es/documentos/20170517144916.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa por el servicio báscula municipal",
+          "url": "https://montemolin.es/documentos/20170517144332.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa servicio del centro de día",
+          "url": "https://montemolin.es/documentos/20170517143835.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa por el uso de la instalación deportiva de pista de pádel",
+          "url": "https://montemolin.es/documentos/20170517145132.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa por utilización de la carpa municipal",
+          "url": "https://montemolin.es/documentos/20170517144555.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa por utilización de gimnasio municipal",
+          "url": "https://montemolin.es/documentos/20170517144028.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa por licencia apertura de establecimiento",
+          "url": "https://montemolin.es/documentos/20170517145422.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-17"
+        },
+        {
+          "titulo": "Ordenanza tasa control actividades administrativas de verificación y actuaciones urbanísticas sujetas a comunicación previa",
+          "url": "https://montemolin.es/documentos/20170518100406.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa por expedición documentos administrativos",
+          "url": "https://montemolin.es/documentos/20170518104124.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa de la actividad administrativa de verificación del cumplimiento de los requisitos para actividades no suejtas a autorización",
+          "url": "https://montemolin.es/documentos/20170518094203.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa entrada vehículos, aparcamientos exclusivos y carga y descargas de mercancias",
+          "url": "https://montemolin.es/documentos/20170518103041.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa por el servicio de ayuda a domicilio",
+          "url": "https://montemolin.es/documentos/20170518101652.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa por ocupación de terrenos de uso público local con mercancías, materiales de construcción, y otras análogas",
+          "url": "https://montemolin.es/documentos/20170518104849.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa otorgamiento licencias urbanísticas",
+          "url": "https://montemolin.es/documentos/20170518094700.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa aprovechamiento especial del dominio público local, a favor de empresas explotadoras de servicios suministros interés general",
+          "url": "https://montemolin.es/documentos/20170518103747.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa por el servicio de estancia en Hogar Club con pisos tutelados",
+          "url": "https://montemolin.es/documentos/20170518102119.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza tasa por utilización de piscina municipal",
+          "url": "https://montemolin.es/documentos/20170518110220.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-18"
+        },
+        {
+          "titulo": "Ordenanza fiscal tasa por la utilización del albergue municipal",
+          "url": "https://montemolin.es/documentos/20180507092030.pdf",
+          "tipo": "pdf",
+          "fecha": "2018-05-07"
+        },
+        {
+          "titulo": "Ordenanza fiscal tasa por expedición certificaciones de naturaleza catastral",
+          "url": "https://montemolin.es/documentos/20180507092306.pdf",
+          "tipo": "pdf",
+          "fecha": "2018-05-07"
+        },
+        {
+          "titulo": "Ordenanza tasa puestos de mercado de abasto",
+          "url": "https://montemolin.es/documentos/20200909091353.pdf",
+          "tipo": "pdf",
+          "fecha": "2020-09-09"
+        },
+        {
+          "titulo": "Ordenanza tasa ejercicio venta ambulante",
+          "url": "https://montemolin.es/documentos/20200909091856.pdf",
+          "tipo": "pdf",
+          "fecha": "2020-09-09"
+        },
+        {
+          "titulo": "Ordenanza fiscal reguladora de la tasa por utilización del auditorio municipal",
+          "url": "https://montemolin.es/documentos/20210805144355.pdf",
+          "tipo": "pdf",
+          "fecha": "2021-08-05"
+        },
+        {
+          "titulo": "Ordenanza fiscal reguladora tasa sala velatorio",
+          "url": "https://montemolin.es/documentos/20210805143854.pdf",
+          "tipo": "pdf",
+          "fecha": "2021-08-05"
+        },
+        {
+          "titulo": "Ordenanza fiscal reguladora de la tasa de cementerio municipal",
+          "url": "https://montemolin.es/documentos/20220520124152.pdf",
+          "tipo": "pdf",
+          "fecha": "2022-05-20"
+        },
+        {
+          "titulo": "Ordenanza reguladora de la tasa distribución aguas",
+          "url": "https://montemolin.es/documentos/20240220091426.pdf",
+          "tipo": "pdf",
+          "fecha": "2024-02-20"
+        },
+        {
+          "titulo": "Ordenanza fiscal tasa recogida residuos sólidos urbanos",
+          "url": "https://montemolin.es/documentos/20240228083433.pdf",
+          "tipo": "pdf",
+          "fecha": "2024-02-28"
+        },
+        {
+          "titulo": "Ordenanza fiscal tasa servicio alcantarillado",
+          "url": "https://montemolin.es/documentos/20240228083536.pdf",
+          "tipo": "pdf",
+          "fecha": "2024-02-28"
+        }
+      ]
+    },
+    {
+      "grupo": "Ordenanzas no fiscales",
+      "nota": "Residuos de obra, tráfico, subvenciones, vertidos, fachadas, venta ambulante y tarjeta de aparcamiento para personas con discapacidad.",
+      "items": [
+        {
+          "titulo": "Ordenanza sobre gestión de residuos de la construción y demolición",
+          "url": "https://montemolin.es/documentos/20170515100300.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-15"
+        },
+        {
+          "titulo": "Ordenanza reguladora de tráfico",
+          "url": "https://montemolin.es/documentos/20170519105551.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Ordenanza general subvenciones del Ayuntamiento de Montemolín",
+          "url": "https://montemolin.es/documentos/20170519105240.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Ordenanza reguladora de vertidos a la red municipal de alcantarillado",
+          "url": "https://montemolin.es/documentos/20170519110807.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Ordenanza reguladora del arreglo de fachadas, vallados de solares y parcelas",
+          "url": "https://montemolin.es/documentos/20170519105444.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Ordenanza reguladora de la venta ambulante Montemolín",
+          "url": "https://montemolin.es/documentos/20200909092432.pdf",
+          "tipo": "pdf",
+          "fecha": "2020-09-09"
+        },
+        {
+          "titulo": "Ordenanza reguladora tarjeta de estacionamiento de vehículos para personas con discapacidad",
+          "url": "https://montemolin.es/documentos/20220520130229.pdf",
+          "tipo": "pdf",
+          "fecha": "2022-05-20"
+        }
+      ]
+    },
+    {
+      "grupo": "Reglamentos",
+      "nota": "Reglamento orgánico, piscinas, protección civil, registro electrónico y pisos tutelados.",
+      "items": [
+        {
+          "titulo": "Reglamento regulador del registro de uniones de hecho",
+          "url": "https://montemolin.es/documentos/20170519091553.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Reglamento de régimen interno de la piscina municipal de Pallares",
+          "url": "https://montemolin.es/documentos/20170519085915.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Reglamento de agrupación local de voluntarios de protección civil",
+          "url": "https://montemolin.es/documentos/20170519085034.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Reglamento orgánico municipal",
+          "url": "https://montemolin.es/documentos/20170519092327.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Reglamento especial de honores y distinciones",
+          "url": "https://montemolin.es/documentos/20170519090224.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Reglamento de régimen interno de la piscina municipal de Montemolín",
+          "url": "https://montemolin.es/documentos/20170519085444.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Reglamento del registro electrónico",
+          "url": "https://montemolin.es/documentos/20170519083751.pdf",
+          "tipo": "pdf",
+          "fecha": "2017-05-19"
+        },
+        {
+          "titulo": "Reglamento de régimen interno de Hogar Club con pisos tutelados",
+          "url": "https://montemolin.es/documentos/20251113090009.pdf",
+          "tipo": "pdf",
+          "fecha": "2025-11-13"
+        }
+      ]
+    },
+    {
+      "grupo": "Actas de pleno de 2016",
+      "nota": "Lo único que tiene su web actual. Desde entonces no se han publicado actas allí.",
+      "items": [
+        {
+          "titulo": "Acta Pleno extraordinario 19 de febrero 2016",
+          "url": "https://montemolin.es/documentos/20160322142602.pdf",
+          "tipo": "pdf",
+          "fecha": "2016-03-22"
+        },
+        {
+          "titulo": "Acta Pleno ordinario 14 de marzo de 2016",
+          "url": "https://montemolin.es/documentos/20160531144608.pdf",
+          "tipo": "pdf",
+          "fecha": "2016-05-31"
+        },
+        {
+          "titulo": "Acta Pleno extraordinario urgente 04 de abril de 2016",
+          "url": "https://montemolin.es/documentos/20160531144741.pdf",
+          "tipo": "pdf",
+          "fecha": "2016-05-31"
+        },
+        {
+          "titulo": "Acta Pleno extraordinario 30 de mayo de 2016 -",
+          "url": "https://montemolin.es/documentos/20170907143939.pdf",
+          "tipo": "pdf",
+          "fecha": "2016-06-08"
+        },
+        {
+          "titulo": "Acta Pleno extraordinario 30 de mayo de 2016",
+          "url": "https://montemolin.es/documentos/20170907143448.pdf",
+          "tipo": "pdf",
+          "fecha": "2016-06-08"
+        },
+        {
+          "titulo": "Acta Pleno ordinario 13 de junio de 2016",
+          "url": "https://montemolin.es/documentos/20170907144400.pdf",
+          "tipo": "pdf",
+          "fecha": "2016-06-23"
+        }
+      ]
+    },
+    {
+      "grupo": "Ayudas (convocatorias antiguas)",
+      "nota": "De 2014 y 2016, de la página del Agente de Empleo y Desarrollo Local.",
+      "items": [
+        {
+          "titulo": "Convocatoria realización programa evaluaciones energéticas y ambientales provincia Badajoz",
+          "url": "https://montemolin.es/documentos/20140912145034.pdf",
+          "tipo": "pdf",
+          "fecha": "2014-09-12"
+        },
+        {
+          "titulo": "Convocatoria ayudas pequeño comercio minorista de Extremadura",
+          "url": "https://montemolin.es/documentos/20160210090440.pdf",
+          "tipo": "pdf",
+          "fecha": "2016-02-10"
+        }
+      ]
+    }
+  ],
+  "sede": {
+    "tipo": "diputacion",
+    "base": "https://sede.montemolin.es",
+    "ent_id": 101,
+    "opc": {
+      "tablon": 268,
+      "perfil": 271
+    },
+    "tablon_url": "https://montemolin.es/tablon.php",
+    "perfil_contratante": "https://contrataciondelestado.es/wps/portal/perfilContratante",
+    "instancia_general": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+  },
+  "tramites": {
+    "atajos": [
+      {
+        "nombre": "Certificado de empadronamiento",
+        "nota": "Con certificado digital o Cl@ve",
+        "opc": 49
+      },
+      {
+        "nombre": "Escribir al Ayuntamiento",
+        "nota": "Registro de entrada, a cualquier hora",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+      },
+      {
+        "nombre": "Pagar un recibo",
+        "nota": "Con tarjeta o con Bizum, en el OAR",
+        "url": "https://oar.dip-badajoz.es/paginas/pago-con-tarjeta",
+        "icono": "recibo"
+      },
+      {
+        "nombre": "Información catastral",
+        "nota": "Se pide en el propio Ayuntamiento",
+        "url": "https://montemolin.es/repositorio/20180914093116.pdf",
+        "tipo": "pdf"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Vivir aquí",
+        "nota": "Padrón y certificados",
+        "icono": "casa",
+        "tramites": [
+          {
+            "nombre": "Certificado de empadronamiento",
+            "opc": 49
+          },
+          {
+            "nombre": "Volante de empadronamiento",
+            "opc": 48
+          },
+          {
+            "nombre": "Consultar su hoja padronal",
+            "opc": 47
+          },
+          {
+            "nombre": "Cambiar su domicilio en el padrón",
+            "opc": 57
+          },
+          {
+            "nombre": "Cambiar sus datos del padrón",
+            "opc": 56
+          },
+          {
+            "nombre": "Escribir al Padrón (registro de entrada)",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10044&asu_mod_cod=10043&codVerif=6C7B618AA31488664EE67BCD2348DD0191D66437&tra_cod="
+          }
+        ]
+      },
+      {
+        "nombre": "Pagos e impuestos",
+        "nota": "Recibos, catastro, comprobar documentos",
+        "icono": "recibo",
+        "tramites": [
+          {
+            "nombre": "Pagar un recibo con tarjeta o con Bizum",
+            "url": "https://oar.dip-badajoz.es/paginas/pago-con-tarjeta"
+          },
+          {
+            "nombre": "Oficina virtual del OAR",
+            "url": "https://oarvirtual.dip-badajoz.es/ciudadanos"
+          },
+          {
+            "nombre": "Información catastral (Punto de Información Catastral)",
+            "url": "https://montemolin.es/repositorio/20180914093116.pdf",
+            "tipo": "pdf"
+          },
+          {
+            "nombre": "Comprobar un documento con su código CSV",
+            "url": "https://sede.montemolin.es/portal/verificarDocumentos.do?pes_cod=6&ent_id=101&idioma=1"
+          }
+        ]
+      },
+      {
+        "nombre": "Obras y negocios",
+        "nota": "Urbanismo y desarrollo local",
+        "icono": "obra",
+        "tramites": [
+          {
+            "nombre": "Presentar un escrito a Urbanismo",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10050&asu_mod_cod=10049&codVerif=E8572592B8188E9E7F0488CD3D7048BCC7F9A924&tra_cod="
+          },
+          {
+            "nombre": "Presentar un escrito a Desarrollo Local",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10088&asu_mod_cod=10087&codVerif=CE3EAC23360911FC3CFEEA1F269F15A1F69773DB&tra_cod="
+          }
+        ]
+      },
+      {
+        "nombre": "Empresas y proveedores",
+        "nota": "Facturas, alta de proveedor",
+        "icono": "carrito",
+        "tramites": [
+          {
+            "nombre": "Darse de alta como proveedor",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10091&asu_mod_cod=10046&codVerif=36FBBF6FED34A8CABE8AE56D2BE31CFFF601696F&tra_cod="
+          },
+          {
+            "nombre": "Registrar una factura",
+            "opc": 103
+          },
+          {
+            "nombre": "Consultar sus facturas",
+            "opc": 20
+          },
+          {
+            "nombre": "Cambiar sus datos de proveedor",
+            "opc": 25
+          }
+        ]
+      },
+      {
+        "nombre": "Hablar con el Ayuntamiento",
+        "nota": "Solicitudes, quejas y avisos",
+        "icono": "mensaje",
+        "tramites": [
+          {
+            "nombre": "Cualquier solicitud (registro general)",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+          },
+          {
+            "nombre": "Escribir a la Alcaldía",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10041&asu_mod_cod=10040&codVerif=A87C11DCE56073211A9CA1F385EC61950A3B0FAD&tra_cod="
+          },
+          {
+            "nombre": "Escribir a Secretaría-Intervención",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10047&asu_mod_cod=10046&codVerif=12E812FD6D437DEA98C3DE3C24769ACE6D74BB94&tra_cod="
+          },
+          {
+            "nombre": "Escribir a los Servicios Sociales",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10085&asu_mod_cod=10084&codVerif=C140B34784F3BD1068E4A48D1A5E1F4645539855&tra_cod="
+          }
+        ]
+      }
+    ],
+    "momentos": [
+      {
+        "nombre": "Me vengo a vivir aquí",
+        "nota": "Lo que conviene hacer las primeras semanas.",
+        "pasos": [
+          {
+            "texto": "Empadronarme: presentar la solicitud en el registro del Padrón (sede) o en el Ayuntamiento",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10044&asu_mod_cod=10043&codVerif=6C7B618AA31488664EE67BCD2348DD0191D66437&tra_cod="
+          },
+          {
+            "texto": "Pedir mi certificado o mi volante de empadronamiento",
+            "opc": 49
+          },
+          {
+            "texto": "Preguntar en el Ayuntamiento qué papeles hacen falta: 924 510 001, de lunes a viernes, de 8:00 a 14:00"
+          },
+          {
+            "texto": "Ver dónde se enteran los vecinos de los avisos: la página de Facebook «Univ Pop Montemolín»",
+            "url": "https://www.facebook.com/upmontemolin"
+          }
+        ]
+      },
+      {
+        "nombre": "Voy a hacer obra",
+        "nota": "Antes de empezar, pregunte en el Ayuntamiento.",
+        "pasos": [
+          {
+            "texto": "Preguntar en el Ayuntamiento qué clase de obra es y qué piden: 924 510 001"
+          },
+          {
+            "texto": "Presentar el escrito en el registro de Urbanismo (sede)",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10050&asu_mod_cod=10049&codVerif=E8572592B8188E9E7F0488CD3D7048BCC7F9A924&tra_cod="
+          },
+          {
+            "texto": "Las tasas y el impuesto de obras están en las ordenanzas fiscales",
+            "url": "ayuntamiento.html#documentos"
+          }
+        ]
+      },
+      {
+        "nombre": "Voy a abrir un negocio",
+        "nota": "La Agente de Empleo y Desarrollo Local atiende los miércoles.",
+        "pasos": [
+          {
+            "texto": "Hablar con la Agente de Empleo y Desarrollo Local: miércoles, de 8:00 a 15:00, en el Ayuntamiento"
+          },
+          {
+            "texto": "Presentar el escrito en el registro de Desarrollo Local (sede)",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10088&asu_mod_cod=10087&codVerif=CE3EAC23360911FC3CFEEA1F269F15A1F69773DB&tra_cod="
+          },
+          {
+            "texto": "La tasa de la licencia de apertura está en las ordenanzas fiscales",
+            "url": "ayuntamiento.html#documentos"
+          }
+        ]
+      },
+      {
+        "nombre": "Ha pasado algo en mi calle",
+        "nota": "Una farola, un bache, una fuga.",
+        "incidencia": true,
+        "pasos": [
+          {
+            "texto": "Si es urgente, llamar al 112"
+          },
+          {
+            "texto": "Para lo demás, avisar al Ayuntamiento por escrito en el registro de la sede",
+            "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+          }
+        ]
+      }
+    ],
+    "sinonimos": {
+      "empadronarme": [
+        "empadronamiento",
+        "padron"
+      ],
+      "empadronar": [
+        "empadronamiento",
+        "padron"
+      ],
+      "censo": [
+        "padron"
+      ],
+      "volante": [
+        "empadronamiento"
+      ],
+      "certificado": [
+        "certificado",
+        "empadronamiento"
+      ],
+      "mudanza": [
+        "domicilio"
+      ],
+      "cambio de casa": [
+        "domicilio"
+      ],
+      "obra": [
+        "urbanismo"
+      ],
+      "obras": [
+        "urbanismo"
+      ],
+      "reforma": [
+        "urbanismo"
+      ],
+      "licencia": [
+        "urbanismo",
+        "desarrollo local"
+      ],
+      "negocio": [
+        "desarrollo local"
+      ],
+      "empresa": [
+        "desarrollo local",
+        "proveedor"
+      ],
+      "bar": [
+        "desarrollo local"
+      ],
+      "tienda": [
+        "desarrollo local"
+      ],
+      "factura": [
+        "factura"
+      ],
+      "proveedor": [
+        "proveedor"
+      ],
+      "recibo": [
+        "recibo",
+        "oar"
+      ],
+      "pagar": [
+        "recibo",
+        "oar"
+      ],
+      "impuesto": [
+        "recibo",
+        "oar"
+      ],
+      "ibi": [
+        "recibo",
+        "catastral"
+      ],
+      "iae": [
+        "recibo",
+        "oar"
+      ],
+      "vehiculos": [
+        "recibo",
+        "oar"
+      ],
+      "bizum": [
+        "recibo"
+      ],
+      "catastro": [
+        "catastral"
+      ],
+      "ayuda": [
+        "servicios sociales"
+      ],
+      "servicios sociales": [
+        "servicios sociales"
+      ],
+      "dependencia": [
+        "servicios sociales"
+      ],
+      "mayores": [
+        "servicios sociales"
+      ],
+      "queja": [
+        "alcaldia",
+        "ayuntamiento"
+      ],
+      "reclamar": [
+        "ayuntamiento"
+      ],
+      "solicitud": [
+        "ayuntamiento"
+      ],
+      "instancia": [
+        "ayuntamiento"
+      ],
+      "empleo": [
+        "desarrollo local"
+      ],
+      "trabajo": [
+        "desarrollo local"
+      ],
+      "csv": [
+        "documento"
+      ],
+      "verificar": [
+        "documento"
+      ]
+    },
+    "todos": [
+      {
+        "nombre": "Certificado de empadronamiento",
+        "opc": 49
+      },
+      {
+        "nombre": "Volante de empadronamiento",
+        "opc": 48
+      },
+      {
+        "nombre": "Consultar su hoja padronal",
+        "opc": 47
+      },
+      {
+        "nombre": "Padrón: cambiar sus datos personales",
+        "opc": 56
+      },
+      {
+        "nombre": "Padrón: cambiar su domicilio",
+        "opc": 57
+      },
+      {
+        "nombre": "Escrito al Ayuntamiento (registro general)",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+      },
+      {
+        "nombre": "Escrito a la Alcaldía",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10041&asu_mod_cod=10040&codVerif=A87C11DCE56073211A9CA1F385EC61950A3B0FAD&tra_cod="
+      },
+      {
+        "nombre": "Escrito a Secretaría-Intervención",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10047&asu_mod_cod=10046&codVerif=12E812FD6D437DEA98C3DE3C24769ACE6D74BB94&tra_cod="
+      },
+      {
+        "nombre": "Escrito al Padrón de habitantes",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10044&asu_mod_cod=10043&codVerif=6C7B618AA31488664EE67BCD2348DD0191D66437&tra_cod="
+      },
+      {
+        "nombre": "Escrito a los Servicios Sociales",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10085&asu_mod_cod=10084&codVerif=C140B34784F3BD1068E4A48D1A5E1F4645539855&tra_cod="
+      },
+      {
+        "nombre": "Escrito a Urbanismo",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10050&asu_mod_cod=10049&codVerif=E8572592B8188E9E7F0488CD3D7048BCC7F9A924&tra_cod="
+      },
+      {
+        "nombre": "Escrito a Desarrollo Local",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10088&asu_mod_cod=10087&codVerif=CE3EAC23360911FC3CFEEA1F269F15A1F69773DB&tra_cod="
+      },
+      {
+        "nombre": "Darse de alta como proveedor",
+        "url": "https://sede.montemolin.es/sede/fichaInformativa.do?asu_cod=10091&asu_mod_cod=10046&codVerif=36FBBF6FED34A8CABE8AE56D2BE31CFFF601696F&tra_cod="
+      },
+      {
+        "nombre": "Proveedores: registrar una factura",
+        "opc": 103
+      },
+      {
+        "nombre": "Proveedores: consultar sus facturas",
+        "opc": 20
+      },
+      {
+        "nombre": "Proveedores: cambiar sus datos",
+        "opc": 25
+      },
+      {
+        "nombre": "Comprobar un documento con su código CSV",
+        "url": "https://sede.montemolin.es/portal/verificarDocumentos.do?pes_cod=6&ent_id=101&idioma=1"
+      },
+      {
+        "nombre": "Pagar un recibo con tarjeta o con Bizum (OAR)",
+        "url": "https://oar.dip-badajoz.es/paginas/pago-con-tarjeta"
+      },
+      {
+        "nombre": "Oficina virtual del OAR: consultar y pagar sus recibos",
+        "url": "https://oarvirtual.dip-badajoz.es/ciudadanos"
+      },
+      {
+        "nombre": "Información catastral: el Punto de Información Catastral del Ayuntamiento",
+        "url": "https://montemolin.es/repositorio/20180914093116.pdf",
+        "tipo": "pdf"
+      }
+    ]
+  },
+  "pueblo": {
+    "entradilla": "En el sur de Badajoz, entre la dehesa y Sierra Morena, Montemolín guarda un castillo almohade y una parroquia del siglo XVI. Tiene a su cargo Pallares y Santa María de Nava.",
+    "historia": [
+      "Montemolín está en la falla de Ossa Morena, que en la época prerromana separaba la Beturia Céltica de la Beturia Túrdula. Hay yacimientos de la Prehistoria a las afueras. De la época romana quedan hallazgos como un capitel corintio de una necrópolis junto al río Viar, que hoy sirve de pila bautismal en la parroquia.",
+      "Entre los siglos XII y XIII hubo aquí un asentamiento musulmán y una fortaleza almohade. El Ayuntamiento cuenta que el nombre viene de la reconstrucción de la villa tras Las Navas de Tolosa, en 1212: «Mente» por la tierra de sus pobladores y «Molín» por el Miramamolín. Es la explicación del Ayuntamiento, no contrastada.",
+      "En 1246 el maestre de la Orden de Santiago, Pelay Pérez Correa, tomó la fortaleza tras la batalla de Tentudía. En 1248 el rey Fernando III la dio a la Orden a cambio de Cantillana. Montemolín fue cabecera de las Cinco Villas Hermanas del Maestrazgo, con Fuente de Cantos, Calzadilla, Medina de las Torres y Monesterio.",
+      "En 1282 Alfonso X le concedió fuero propio por la lealtad de sus vecinos. En 1608 Felipe III vendió las Cinco Villas a unos banqueros genoveses y en 1684 se creó el título de marqués de Montemolín. Más tarde la Corona recompró la jurisdicción y la villa volvió a ser de realengo.",
+      "Entre 1845 y 1861 el pretendiente carlista Carlos Luis de Borbón tomó el título de conde de Montemolín. En 1833 la villa había quedado en el partido judicial de Llerena; hoy pertenece al de Zafra y a la comarca de Tentudía."
+    ],
+    "lugares": [
+      {
+        "nombre": "Castillo almohade",
+        "texto": "Fortaleza del siglo XII sobre una colina al oeste del pueblo, de unos 130 por 50 metros. Conserva siete cubos, la torre del Homenaje (hoy mirador), una mazmorra y un aljibe.",
+        "foto": "castillo",
+        "alt": "El castillo almohade de Montemolín sobre una colina de hierba, con sus torres y lienzos de muralla bajo un cielo azul"
+      },
+      {
+        "nombre": "Parroquia de la Purísima Concepción",
+        "texto": "Gótico-renacentista, de nave única y piedra sin encalar, empezada tras un privilegio de Carlos I de 1523. El retablo mayor se pintó entre 1625 y 1677.",
+        "foto": "parroquia",
+        "alt": "La torre y la fachada de piedra de la parroquia de la Purísima Concepción, con su campanario y su reloj, bajo un cielo azul"
+      },
+      {
+        "nombre": "Ermita de Nuestra Señora de la Granada",
+        "texto": "Fue la primera parroquia de la villa, bajo la advocación de Santiago Apóstol. Junto a ella está el Paseo de Martín Álvarez.",
+        "foto": "ermita-granada",
+        "alt": "Muro de piedra de la ermita de la Granada, con su portada de arco y una columna blanca delante"
+      },
+      {
+        "nombre": "Ermita de San Blas",
+        "texto": "Ermita encalada con espadaña y un crucero blanco. San Blas se celebra el 3 de febrero, fiesta local de Montemolín.",
+        "foto": "ermita-san-blas",
+        "alt": "La ermita de San Blas, encalada, con una espadaña de dos campanas y un crucero blanco con una cruz de hierro"
+      },
+      {
+        "nombre": "Iglesia de Santa María Magdalena, en Pallares",
+        "texto": "La iglesia de Pallares, que está a 8 kilómetros de Montemolín. Su patrona es Santa María Magdalena, el 22 de julio.",
+        "foto": "iglesia-pallares",
+        "alt": "La iglesia de Pallares, encalada, con una espadaña de dos campanas y un arco de entrada, bajo un cielo azul"
+      },
+      {
+        "nombre": "Iglesia de Santa María",
+        "texto": "Santa María de Nava es el otro núcleo del término, a 21 kilómetros de Montemolín. Su iglesia es la de Santa María y su plaza, la Plaza de España.",
+        "foto": "santa-maria-nava",
+        "alt": "El pueblo de Santa María de Nava en el valle, con sierras al fondo y campos alrededor"
+      }
+    ],
+    "visitas": [
+      {
+        "nombre": "Castillo almohade",
+        "texto": "Los restos consolidados se pueden visitar. Lo más interesante es la mazmorra, el aljibe y la torre del Homenaje, convertida en mirador.",
+        "direccion": "Margen occidental del pueblo",
+        "nota": "El Ayuntamiento no publica horario: pregunte en el 924 510 001 antes de ir."
+      }
+    ],
+    "patrimonio": [
+      {
+        "grupo": "Montemolín",
+        "nombre": "Castillo almohade",
+        "detalle": "Fortaleza de tapial y, desde 1248, de ladrillo y sillería, con la torre del Homenaje y la de Miramontes. La actuación del Proyecto Alba Plata (Junta de Extremadura), a comienzos del siglo XXI, detuvo su deterioro. A su torre semicircular del sur la llaman «el Plato de la Reina»."
+      },
+      {
+        "grupo": "Montemolín",
+        "nombre": "Parroquia de la Purísima Concepción",
+        "detalle": "De 70 por 32 metros y 18 de alto. Tiene una portada sur neoclásica con el reloj de la villa y otra occidental renacentista de 1573, gárgolas con los siete pecados capitales y 14 altares con retablos de los siglos XVII y XVIII."
+      },
+      {
+        "grupo": "Montemolín",
+        "nombre": "Ermita de Nuestra Señora de la Granada",
+        "detalle": "Antigua parroquia de Santiago Apóstol, a las faldas del castillo y junto al paseo de Martín Álvarez."
+      },
+      {
+        "grupo": "Montemolín",
+        "nombre": "Ermita de San Blas",
+        "detalle": "Dentro del casco, junto a la calle San Blas. Algunos mapas la llaman ermita de Nuestra Señora de Gracia."
+      },
+      {
+        "grupo": "Montemolín",
+        "nombre": "Ermita de San Benito",
+        "detalle": "A las afueras. La web municipal cuenta que sus altares se llevaron a la parroquia cuando se cerró al culto, junto con los de la ermita del Espíritu Santo."
+      },
+      {
+        "grupo": "Montemolín",
+        "nombre": "Paseo y monumento de Martín Álvarez",
+        "detalle": "Inaugurado en 1938 junto a la ermita de la Granada, con la estatua del granadero."
+      },
+      {
+        "grupo": "Pallares",
+        "nombre": "Iglesia de Santa María Magdalena, en Pallares",
+        "detalle": "Iglesia de Pallares, con su altar mayor. La plaza del pueblo es la Plaza de España."
+      },
+      {
+        "grupo": "Santa María de Nava",
+        "nombre": "Iglesia de Santa María",
+        "detalle": "Con una torre de ladrillo sobre un muro encalado."
+      }
+    ],
+    "fiestas": [
+      {
+        "mes": 2,
+        "nombre": "San Blas y las Candelas",
+        "cuando": "2 y 3 de febrero. El 3 es fiesta local",
+        "fecha_fija": "02-03"
+      },
+      {
+        "mes": 2,
+        "nombre": "Carnaval",
+        "cuando": "Febrero o marzo",
+        "meses": [
+          2,
+          3
+        ]
+      },
+      {
+        "mes": 5,
+        "nombre": "San Isidro Labrador",
+        "cuando": "15 de mayo, fiesta local",
+        "fecha_fija": "05-15"
+      },
+      {
+        "mes": 7,
+        "nombre": "Santa María Magdalena, en Pallares",
+        "cuando": "22 de julio",
+        "fecha_fija": "07-22"
+      },
+      {
+        "mes": 7,
+        "nombre": "Fiestas patronales de Santiago Apóstol",
+        "cuando": "En torno al 25 de julio",
+        "fecha_fija": "07-25",
+        "mayor": true
+      },
+      {
+        "mes": 8,
+        "nombre": "Fiesta del Guarrito",
+        "cuando": "Primera semana de agosto (en 2026, el 7 y el 8; fue la XXII edición)"
+      },
+      {
+        "mes": 8,
+        "nombre": "Fiesta del Emigrante, en Pallares",
+        "cuando": "Mediados de agosto (en 2026, del 10 al 12)"
+      },
+      {
+        "mes": 8,
+        "nombre": "Fiestas patronales de Santa María de Nava",
+        "cuando": "Finales de agosto (en 2026, del 25 al 28)"
+      },
+      {
+        "mes": 9,
+        "nombre": "Fiestas patronales de Pallares",
+        "cuando": "Principios de septiembre. El 4 de septiembre es fiesta local de Pallares"
+      },
+      {
+        "mes": 12,
+        "nombre": "Encantos navideños",
+        "cuando": "Diciembre, en la Plaza de la Constitución (en 2025, el 20 y el 27 a las 19:00)"
+      }
+    ],
+    "personajes": [
+      {
+        "nombre": "Martín Álvarez y Galán",
+        "fechas": "1766-1801",
+        "texto": "Infante de Marina, héroe de la batalla del cabo de San Vicente (14 de febrero de 1797). Herido, siguió defendiendo la bandera del navío «San Nicolás de Bari». Un buque de la Armada llevará su nombre."
+      },
+      {
+        "nombre": "Casiodoro de Reina",
+        "fechas": "h. 1520-1594",
+        "texto": "Monje jerónimo nacido en Montemolín que se exilió por sus ideas protestantes. Imprimió en Basilea, en 1569, la primera Biblia completa en castellano traducida del hebreo y del griego: la «Biblia del Oso»."
+      },
+      {
+        "nombre": "Carlos Luis de Borbón y Braganza",
+        "fechas": "conde de Montemolín de 1845 a 1861",
+        "texto": "Pretendiente carlista al trono con el nombre de Carlos VI. No nació aquí: su título de conde viene de la villa."
+      }
+    ],
+    "rutas": [
+      {
+        "nombre": "Red de Ciudades en la Ruta de la Plata",
+        "resumen": "Montemolín está adscrito a esta red desde el 15 de diciembre de 2011.",
+        "url": "https://rutadelaplata.com/"
+      }
+    ]
+  },
+  "fotos": {
+    "hero_fotos": [
+      {
+        "archivo": "vista-general",
+        "alt": "Casas blancas de tejados rojos de Montemolín, con la torre de la parroquia al fondo, olivos y cerdos ibéricos pastando en primer plano",
+        "posicion": "45% 50%"
+      },
+      {
+        "archivo": "castillo",
+        "alt": "El castillo almohade de Montemolín sobre una colina de hierba, con sus torres y lienzos de muralla bajo un cielo azul",
+        "posicion": "50% 50%"
+      },
+      {
+        "archivo": "parroquia",
+        "alt": "La torre y la fachada de piedra de la parroquia de la Purísima Concepción, con su campanario y su reloj, bajo un cielo azul",
+        "posicion": "45% 40%"
+      },
+      {
+        "archivo": "ermita-granada",
+        "alt": "Muro de piedra de la ermita de la Granada, con su portada de arco y una columna blanca delante",
+        "posicion": "45% 55%"
+      }
+    ]
+  },
+  "cabeceras": {
+    "_leeme": "Foto opcional en la cabecera de cada página interior (por id de página), recortada en arco. Sin foto, el arco de línea. «El pueblo» la pinta grande.",
+    "pueblo": {
+      "archivo": "castillo",
+      "alt": "El castillo almohade de Montemolín sobre una colina de hierba, con sus torres y lienzos de muralla bajo un cielo azul",
+      "posicion": "50% 45%"
+    }
+  },
+  "ine": "06086",
+  "horizonte_agenda_dias": 60,
+  "cifras": [
+    {
+      "valor": 1231,
+      "unidad": "habitantes",
+      "etiqueta": "en el padrón municipal",
+      "fuente": "INE, padrón a 1 de enero de 2025",
+      "fuente_url": "https://portalestadistico.com/municipioencifras/?pn=dip-badajoz&pc=WRC03&id_territorio=06086",
+      "anio": 2025
+    },
+    {
+      "valor": 202.7,
+      "unidad": "km²",
+      "etiqueta": "de término municipal",
+      "fuente": "Ayuntamiento de Montemolín, «Información general»",
+      "fuente_url": "https://montemolin.es/plantilla.php?enlace=INFORMACIONGENERALMONTEMOLIN",
+      "anio": null
+    },
+    {
+      "valor": 615,
+      "unidad": "m",
+      "etiqueta": "de altitud, según la ficha municipal",
+      "fuente": "Ayuntamiento de Montemolín, «Información general»",
+      "fuente_url": "https://montemolin.es/plantilla.php?enlace=INFORMACIONGENERALMONTEMOLIN",
+      "anio": null
+    },
+    {
+      "valor": "1248",
+      "unidad": null,
+      "etiqueta": "año en que la villa pasó a la Orden de Santiago",
+      "fuente": "Ayuntamiento de Montemolín, «Historia»",
+      "fuente_url": "https://montemolin.es/plantilla.php?enlace=HISTORIAMONTEMOLIN",
+      "anio": null
+    }
+  ],
+  "incidencias": {
+    "correo": "ayuntamiento@montemolin.es",
+    "categorias": [
+      {
+        "nombre": "Alumbrado",
+        "ayuda": "Una farola apagada, rota o que se queda encendida de día"
+      },
+      {
+        "nombre": "Agua",
+        "ayuda": "Una fuga, una tapa de alcantarilla movida o falta de agua"
+      },
+      {
+        "nombre": "Limpieza",
+        "ayuda": "Basura en la calle, un contenedor lleno o roto"
+      },
+      {
+        "nombre": "Vía pública",
+        "ayuda": "Un bache, una acera rota, una señal caída"
+      },
+      {
+        "nombre": "Ruidos",
+        "ayuda": "Ruidos que molestan de forma repetida"
+      },
+      {
+        "nombre": "Otro",
+        "ayuda": "Cualquier otra cosa de la calle"
+      }
+    ]
+  },
+  "farmacias": {
+    "oficial": {
+      "nombre": "Colegio Oficial de Farmacéuticos de Badajoz",
+      "url": "https://cofbadajoz.com/farmacias-de-guardia/"
+    }
+  },
+  "transparencia": {
+    "revisada": "2026-10-05",
+    "portal": {
+      "url": "http://www.transparenciabadajoz.es/transparencia.php?codigo=101&anno=2024",
+      "nombre": "Portal de Transparencia de la Diputación de Badajoz (Montemolín)"
+    },
+    "apartados": {
+      "organizacion": {
+        "pendiente": "un organigrama con el perfil y la trayectoria de cada responsable."
+      },
+      "presupuestos": {
+        "pendiente": "dónde se publican el presupuesto y cómo va su ejecución. En su web solo está el de 2017, en el tablón."
+      },
+      "cuentas": {
+        "pendiente": "dónde se publican las cuentas anuales y los informes de control."
+      },
+      "contratos": {
+        "pendiente": "la dirección del perfil del contratante del Ayuntamiento en la Plataforma de Contratación (la de su web es la página general). El de la sede está vacío; desde 2018 se publica en la Plataforma."
+      },
+      "convenios": {
+        "pendiente": "dónde se publican los convenios que firma el Ayuntamiento."
+      },
+      "subvenciones": {
+        "pendiente": "dónde se publican las subvenciones concedidas, con su importe y quién las recibe."
+      },
+      "retribuciones": {
+        "pendiente": "lo que cobra al año cada cargo y las declaraciones de bienes y actividades de los concejales. Las dedicaciones de 2023 y 2024 salieron en el BOP."
+      }
+    }
+  },
+  "propuesta_web": {
+    "problemas": [
+      {
+        "texto": "Diecisiete entradas del menú llevan a una página vacía: Hacienda, Obras, Padrón, Registro General, Urbanismo, Biblioteca, Piscina, Fiestas, Alojamientos y otras ocho. Quien busca un trámite o un servicio no encuentra nada.",
+        "fuente": "montemolin.es, menú principal"
+      },
+      {
+        "texto": "Las noticias están paradas desde el 31 de julio de 2023 y la agenda desde diciembre de 2025, aunque el tablón sí se actualiza (el último anuncio es de septiembre de 2026). El vecino tiene que adivinar dónde mirar.",
+        "fuente": "montemolin.es: noticias, agenda y tablón"
+      },
+      {
+        "texto": "La página «Corporación municipal» y el saludo del alcalde siguen con el equipo de gobierno de 2023; el alcalde actual solo figura en «Grupos políticos». Los iconos de Facebook, Twitter e Instagram llevan a facebook.es, twitter.com y plus.google.com, no a una cuenta del Ayuntamiento.",
+        "fuente": "montemolin.es: Corporación y pie de página"
+      },
+      {
+        "texto": "El Ayuntamiento da dos teléfonos (924 510 001 y 924 510 111) y varios correos distintos según la página, y el del membrete de sus PDF lleva una tilde en la dirección.",
+        "fuente": "Información general, sede y PDF"
+      },
+      {
+        "texto": "El enlace del Albergue Miramolín del menú lleva a un dominio que ya no existe (albergueturisticomiramolin.es) y la segunda foto de la página del castillo es un archivo cortado que no se ve entero.",
+        "fuente": "montemolin.es: Servicios y Castillo"
+      }
+    ],
+    "revisada": "2026-10-05",
+    "captura_antes": {
+      "archivo": "assets/web-actual.jpg",
+      "alt": "Portada actual de montemolin.es: una foto del pueblo con el castillo y la iglesia arriba, un menú de una línea (Inicio, Ayuntamiento, Municipio, Pedanías, Servicios, Agenda Alcaldía, Contacte), cuatro cajas grandes (Ayuntamiento, Municipio, Pedanías, Servicios) y debajo el tablón de anuncios y los anuncios del BOP; sin escudo"
+    },
+    "contacto": {
+      "nombre": "Álvaro",
+      "correo": "alvarot2601@gmail.com",
+      "telefono": "684 025 751"
+    }
+  }
+}

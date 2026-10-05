@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>Avisos y noticias · Ayuntamiento de Montemolín</title>
+  <subtitle>Lo que publica el Ayuntamiento de Montemolín: avisos (cortes, convocatorias, plazos) y noticias.</subtitle>
+  <id>urn:uuid:59a244a8-ed9a-d53f-e681-fcf7bf33ad3e</id>
+  <link rel="self" type="application/atom+xml" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/avisos.html"/>
+  <updated>2026-09-25T09:00:00+02:00</updated>
+  <author><name>Ayuntamiento de Montemolín</name></author>
+  <icon>https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/marca/escudo-160.png</icon>
+  <entry>
+    <title>ITV móvil en Montemolín: 13 y 14 de octubre, en el polideportivo</title>
+    <id>urn:uuid:2d8545f3-c55a-3cb5-c4da-f3a852f25c5e</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/avisos.html#aviso-itv-movil-2026-10"/>
+    <published>2026-09-25T09:00:00+02:00</published>
+    <updated>2026-09-25T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">La unidad móvil de la ITV estará en Montemolín los días 13 y 14 de octubre de 2026, en el polideportivo. El horario y cómo pedir cita figuran en el bando del Ayuntamiento.</summary>
+  </entry>
+  <entry>
+    <title>La ITV móvil estará en Montemolín el 13 y el 14 de octubre</title>
+    <id>urn:uuid:9cf763bc-599c-b092-63f3-d259eeef5f12</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/noticia-itv-movil-octubre-2026.html"/>
+    <published>2026-09-25T09:00:00+02:00</published>
+    <updated>2026-09-25T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">En el polideportivo. Horario y cita, en el bando del Ayuntamiento.</summary>
+  </entry>
+  <entry>
+    <title>Plan de Empleo Provincial 2026-2027: 48.546 euros para contratar a personas en paro</title>
+    <id>urn:uuid:fa0e2e0c-80ec-f7be-9c8a-602e333364db</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/noticia-plan-empleo-2026-2027.html"/>
+    <published>2026-09-18T09:00:00+02:00</published>
+    <updated>2026-09-18T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Las primeras plazas, de monitor deportivo y de mantenimiento, tuvieron plazo hasta el 25 de septiembre.</summary>
+  </entry>
+  <entry>
+    <title>Pago voluntario del IAE de 2026: del 15 de septiembre al 16 de noviembre</title>
+    <id>urn:uuid:3c96bf00-6953-80f5-7105-b3d583f303b2</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/noticia-iae-2026-pago-voluntario.html"/>
+    <published>2026-09-15T09:00:00+02:00</published>
+    <updated>2026-09-15T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Se paga con tarjeta o Bizum en la web del OAR, en el banco o en Correos.</summary>
+  </entry>
+  <entry>
+    <title>Un buque de la Armada llevará el nombre de Martín Álvarez, el granadero de Montemolín</title>
+    <id>urn:uuid:1f105b6f-2772-c0e8-71b0-edc74548201a</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/noticia-martin-alvarez-buque-armada.html"/>
+    <published>2026-09-04T09:00:00+02:00</published>
+    <updated>2026-09-04T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">El Ayuntamiento lo celebra como una gran noticia para el pueblo.</summary>
+  </entry>
+  <entry>
+    <title>Plan de Empleo Provincial 2025-2026: 44.537,80 euros y siete contrataciones</title>
+    <id>urn:uuid:5552711f-4a83-409b-7386-79f319c32046</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/noticia-plan-empleo-2025-2026-balance.html"/>
+    <published>2026-03-16T09:00:00+01:00</published>
+    <updated>2026-03-16T09:00:00+01:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Auxiliar de cocina, limpieza, mantenimiento, monitor deportivo y auxiliar de oficinas.</summary>
+  </entry>
+</feed>

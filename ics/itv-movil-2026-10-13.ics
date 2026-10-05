@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Montemolín//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:itv-movil-2026-10-13@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:ITV móvil en Montemolín
+LOCATION:Polideportivo\, Montemolín
+DESCRIPTION:También el día 14. Horario y cita: el bando del Ayuntamiento.
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-itv-movil-2026-10-13
+END:VEVENT
+END:VCALENDAR

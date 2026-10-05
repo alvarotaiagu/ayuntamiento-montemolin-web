@@ -1,0 +1,162 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Montemolín//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agenda de Montemolín
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fiesta-san-blas-y-las-candelas-2026@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:San Blas y las Candelas
+LOCATION:2 y 3 de febrero. El 3 es fiesta local\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-san-blas-y-las-candelas-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-san-isidro-labrador-2026@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:San Isidro Labrador
+LOCATION:15 de mayo\, fiesta local\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-san-isidro-labrador-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-santa-maria-magdalena-en-pallares-2026@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:Santa María Magdalena\, en Pallares
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-santa-maria-magdalena-en-pallares-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-fiestas-patronales-de-santiago-apostol-2026@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:Fiestas patronales de Santiago Apóstol
+LOCATION:En torno al 25 de julio\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-fiestas-patronales-de-santiago-apostol-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:teatro-tarot-y-tentempie@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;TZID=Europe/Madrid:20260911T213000
+DTEND;TZID=Europe/Madrid:20260911T223000
+SUMMARY:Teatro: «Tarot y tentempié»
+LOCATION:Corrala de Comedias\, Montemolín
+DESCRIPTION:Comedia de Francis Lucas\, de Verbo Producciones.
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-teatro-tarot-y-tentempie
+END:VEVENT
+BEGIN:VEVENT
+UID:taller-regalate-un-rato-2@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;TZID=Europe/Madrid:20260915T113000
+DTEND;TZID=Europe/Madrid:20260915T123000
+SUMMARY:Taller «Regálate un rato para ti» (2.ª parte)
+LOCATION:Sala de Usos Múltiples de la Universidad Popular\, Montemolín
+DESCRIPTION:Gratuito y abierto a personas adultas del municipio. Proyecto R
+ ed Arraigo (Asociación Anthea).
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-taller-regalate-un-rato-2
+END:VEVENT
+BEGIN:VEVENT
+UID:teatro-llevame-pal-pueblo@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;TZID=Europe/Madrid:20260919T214500
+DTEND;TZID=Europe/Madrid:20260919T224500
+SUMMARY:Teatro: «Llévame p’al pueblo»
+LOCATION:Corrala de Comedias\, Montemolín
+DESCRIPTION:Comedia de Lupe Osuna\, de EXTEATRO Artes Escénicas. La funci
+ ón se retrasó 15 minutos.
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-teatro-llevame-pal-pueblo
+END:VEVENT
+BEGIN:VEVENT
+UID:itv-movil-2026-10-13@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:ITV móvil en Montemolín
+LOCATION:Polideportivo\, Montemolín
+DESCRIPTION:También el día 14. Horario y cita: el bando del Ayuntamiento.
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-itv-movil-2026-10-13
+END:VEVENT
+BEGIN:VEVENT
+UID:iae-2026-fin-plazo@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Último día para pagar el IAE de 2026 sin recargo
+DESCRIPTION:El pago voluntario empezó el 15 de septiembre. Se paga con tar
+ jeta o Bizum en la web del OAR\, en el banco o en Correos.
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-iae-2026-fin-plazo
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-san-blas-y-las-candelas-2027@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:San Blas y las Candelas
+LOCATION:2 y 3 de febrero. El 3 es fiesta local\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-san-blas-y-las-candelas-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-san-isidro-labrador-2027@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:San Isidro Labrador
+LOCATION:15 de mayo\, fiesta local\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-san-isidro-labrador-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-santa-maria-magdalena-en-pallares-2027@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:Santa María Magdalena\, en Pallares
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-santa-maria-magdalena-en-pallares-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-fiestas-patronales-de-santiago-apostol-2027@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:Fiestas patronales de Santiago Apóstol
+LOCATION:En torno al 25 de julio\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-fiestas-patronales-de-santiago-apostol-2027
+END:VEVENT
+END:VCALENDAR

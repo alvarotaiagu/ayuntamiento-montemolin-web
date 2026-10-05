@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Montemolín//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-san-blas-y-las-candelas-2027@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:San Blas y las Candelas
+LOCATION:2 y 3 de febrero. El 3 es fiesta local\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-san-blas-y-las-candelas-2027
+END:VEVENT
+END:VCALENDAR

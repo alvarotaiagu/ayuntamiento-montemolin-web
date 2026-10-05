@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Montemolín//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-santa-maria-magdalena-en-pallares-2026@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:Santa María Magdalena\, en Pallares
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-santa-maria-magdalena-en-pallares-2026
+END:VEVENT
+END:VCALENDAR

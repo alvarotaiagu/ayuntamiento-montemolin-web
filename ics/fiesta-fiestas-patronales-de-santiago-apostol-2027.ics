@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Montemolín//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-fiestas-patronales-de-santiago-apostol-2027@montemolin.agenda
+DTSTAMP:20261005T142739Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:Fiestas patronales de Santiago Apóstol
+LOCATION:En torno al 25 de julio\, Montemolín
+URL:https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/agenda.html#
+ evento-fiesta-fiestas-patronales-de-santiago-apostol-2027
+END:VEVENT
+END:VCALENDAR

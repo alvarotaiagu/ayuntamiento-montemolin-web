@@ -1,0 +1,177 @@
+{
+  "_leeme": "Lo genera scripts/termino.mjs (no editar a mano salvo «fijado» en lugares, que el script respeta). aplicar.mjs pinta con esto el mapa del término en «El pueblo»: sin este archivo o sin marca/termino.svg, la sección no sale.",
+  "fuente": "OpenStreetMap, por la API de Overpass",
+  "licencia": "ODbL 1.0",
+  "atribucion": "© colaboradores de OpenStreetMap",
+  "atribucion_url": "https://www.openstreetmap.org/copyright",
+  "nombre_osm": "Montemolín",
+  "relacion": "relation/347831",
+  "pueblo_osm": "node/919848602",
+  "casco_osm": [
+    "way/53861893"
+  ],
+  "carreteras": [
+    "A-66",
+    "BA-067",
+    "BA-093",
+    "BA-094",
+    "BA-110",
+    "EX-103",
+    "EX-318"
+  ],
+  "carreteras_osm": [
+    "way/35019072",
+    "way/35020045",
+    "way/53861894",
+    "way/53861909",
+    "way/70904332",
+    "way/70904334",
+    "way/70904337",
+    "way/70904342",
+    "way/70904346",
+    "way/70904349",
+    "way/70904352",
+    "way/70904358",
+    "way/72700433",
+    "way/77502894",
+    "way/78077456",
+    "way/86351559",
+    "way/88030435",
+    "way/151593437",
+    "way/151605035",
+    "way/152479344",
+    "way/152479357",
+    "way/218602933",
+    "way/218602963",
+    "way/218602967",
+    "way/218602982",
+    "way/218602994",
+    "way/367233610",
+    "way/794353431",
+    "way/891439357",
+    "way/891439358",
+    "way/891439359",
+    "way/891439360",
+    "way/891439361",
+    "way/891439362",
+    "way/891439363",
+    "way/891439364",
+    "way/1076912892",
+    "way/1076912893",
+    "way/1076912896",
+    "way/1076912912",
+    "way/1076912921",
+    "way/1239140669",
+    "way/1239140670",
+    "way/1309098197",
+    "way/1355827858",
+    "way/1432619296",
+    "way/1432619297"
+  ],
+  "rutas": [],
+  "viewBox": "0 0 600 767",
+  "metros_por_unidad": 38.918,
+  "escala_m": 5000,
+  "radio_punto": 15,
+  "recuadro": {
+    "caja": [
+      6,
+      366,
+      216,
+      576
+    ],
+    "zona": [
+      152.7,
+      187.6,
+      177.6,
+      212.4
+    ],
+    "metros_por_unidad": 4.606,
+    "escala_m": 250,
+    "tapa_termino": 0
+  },
+  "fecha": "2026-10-05",
+  "lugares": [
+    {
+      "nombre": "Castillo almohade",
+      "osm": "way/151604937",
+      "nombre_osm": "Castillo Almohade",
+      "lat": 38.156963,
+      "lon": -6.219375,
+      "x": 36.7,
+      "y": 429.3,
+      "recuadro": true,
+      "sitio": [
+        57.3,
+        451.1
+      ]
+    },
+    {
+      "nombre": "Parroquia de la Purísima Concepción",
+      "osm": "way/551979132",
+      "nombre_osm": "Iglesia de la Purísima Concepción",
+      "lat": 38.155307,
+      "lon": -6.213733,
+      "x": 164.7,
+      "y": 490.9,
+      "fijado": true,
+      "recuadro": true
+    },
+    {
+      "nombre": "Ermita de Nuestra Señora de la Granada",
+      "osm": "way/552191416",
+      "nombre_osm": "Ermita de Nuestra Señora de la Granada",
+      "lat": 38.156256,
+      "lon": -6.217541,
+      "x": 88.6,
+      "y": 438.3,
+      "recuadro": true,
+      "sitio": [
+        92.2,
+        468.1
+      ]
+    },
+    {
+      "nombre": "Iglesia de Santa María Magdalena, en Pallares",
+      "osm": "way/1094278743",
+      "nombre_osm": "Iglesia de la Magdalena",
+      "lat": 38.111247,
+      "lon": -6.152886,
+      "x": 308.5,
+      "y": 327.5,
+      "fijado": true
+    },
+    {
+      "nombre": "Iglesia de Santa María",
+      "osm": "way/1076912920",
+      "nombre_osm": "Iglesia de Santa María",
+      "lat": 38.015209,
+      "lon": -6.080328,
+      "x": 471.8,
+      "y": 600.4
+    },
+    {
+      "nombre": "Ermita de San Benito",
+      "osm": "way/552205007",
+      "nombre_osm": "Ermita de San Benito",
+      "lat": 38.136946,
+      "lon": -6.202047,
+      "x": 197.8,
+      "y": 254.5
+    },
+    {
+      "nombre": "Paseo y monumento de Martín Álvarez",
+      "osm": "node/5331695702",
+      "nombre_osm": "Monumento a Martín Álvarez",
+      "lat": 38.156092,
+      "lon": -6.217699,
+      "x": 63.1,
+      "y": 486.9,
+      "recuadro": true,
+      "sitio": [
+        89.2,
+        472
+      ]
+    }
+  ]
+}

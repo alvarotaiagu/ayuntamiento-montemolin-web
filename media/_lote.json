@@ -1,0 +1,38 @@
+[
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-web/galeria_20140220102608.jpg",
+    "salida": "vista-general"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-web/galeria_20140326124933.jpg",
+    "salida": "castillo"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-commons/iglesia-purisima-adolfobrigido-2017.jpg",
+    "salida": "parroquia"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-web/galeria_20140221125856.jpg",
+    "salida": "ermita-granada"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-web/galeria_20140326124753.jpg",
+    "salida": "ermita-san-blas"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-web/galeria_20140326124700.jpg",
+    "salida": "iglesia-pallares"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-web/galeria_20140328134225.jpg",
+    "salida": "santa-maria-nava"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-web/galeria_20240808102718.jpg",
+    "salida": "torre-santa-maria-nava"
+  },
+  {
+    "origen": "../../ayuntamiento-montemolin-bocetos/fotos-commons/abrevadero-pilar-redondo-marbregal-2012.jpg",
+    "salida": "pilar-redondo"
+  }
+]

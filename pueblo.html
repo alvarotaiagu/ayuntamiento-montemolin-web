@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<!-- GENERADO por scripts/aplicar.mjs desde fuente/ y los datos. No editar a mano. -->
+<html lang="es" class="sin-js densidad-puerta">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El pueblo · Ayuntamiento de Montemolín</title>
+<meta name="description" content="Historia, patrimonio, fiestas y gastronomía de Montemolín.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+
+<meta property="og:title" content="Propuesta de web · Montemolín">
+<meta property="og:description" content="Propuesta de diseño para la web del Ayuntamiento de Montemolín. No es la web oficial.">
+<meta property="og:image" content="https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/assets/og.jpg">
+<meta name="theme-color" content="#FAF9F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" href="fonts/besley-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/libre-franklin-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fuentes.css?v=03f84dac">
+<link rel="stylesheet" href="css/marca.css?v=5abdee72">
+<link rel="stylesheet" href="css/base.css?v=9bcd9cef">
+<link rel="stylesheet" href="css/movimiento.css?v=f4ef5a0d">
+<link rel="stylesheet" href="css/imprimir.css?v=a8d62576" media="print">
+<link rel="alternate" type="application/atom+xml" title="Avisos y noticias · Ayuntamiento de Montemolín" href="feed.xml">
+<link rel="alternate" type="text/calendar" title="Agenda de Montemolín" href="agenda.ics">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/index.html"},{"@type":"ListItem","position":2,"name":"El pueblo","item":"https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/pueblo.html"}]}]}</script>
+<script>/* el listín sin cobertura (sw.js, v3b): se registra al terminar de cargar; si no hay service worker o falla, todo sigue igual */
+if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });</script>
+<script>
+/* Bloqueante a propósito: lo que cambia el aspecto se decide antes del primer
+   pintado, o la página arranca de una forma y salta a otra. */
+(function () {
+  var h = document.documentElement;
+  h.className = h.className.replace('sin-js', 'con-js');
+
+
+  /* [MANDO DE MAQUETA] inicio */
+  /* Solo con ?revision: lo guardado no cuenta fuera de la reunión, o un móvil
+     donde se probó la versión sobria la seguiría viendo sin mando para volver. */
+  if (!/[?&]revision\b/.test(location.search)) return;
+  h.classList.add('en-revision');
+  try {
+    var d = localStorage.getItem('montemolin-densidad');
+    if (d === 'sobria' || d === 'puerta') { h.classList.remove('densidad-puerta', 'densidad-sobria'); h.classList.add('densidad-' + d); }
+    var p = localStorage.getItem('montemolin-paleta');
+    if (p === 'a' || p === 'b' || p === 'c') h.setAttribute('data-paleta', p);
+  } catch (e) {}
+  /* [MANDO DE MAQUETA] fin */
+})();
+</script>
+
+</head>
+<body class="pagina-pueblo">
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-aviso" viewBox="0 0 24 24"><path d="M12 3.5 2.8 19.5h18.4L12 3.5Z"/><path d="M12 10v4.5M12 17.2v.1"/></symbol>
+  <symbol id="i-sede" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5l5.5 5.5-5.5 5.5"/></symbol>
+  <symbol id="i-salida" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-cerrar" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-telefono" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-casa" viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7M6 9.5V20h12V9.5M10 20v-5.5h4V20"/></symbol>
+  <symbol id="i-obra" viewBox="0 0 24 24"><path d="M3 20h18M5 20V10l4-3 4 3v10M13 13h6v7M8 13h2"/><path d="M15 4h5v4"/></symbol>
+  <symbol id="i-recibo" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+  <symbol id="i-familia" viewBox="0 0 24 24"><circle cx="8" cy="7" r="2.5"/><circle cx="16.5" cy="8.5" r="2"/><path d="M3.5 20v-3.5a4.5 4.5 0 0 1 9 0V20M13 20v-2.5a3.5 3.5 0 0 1 7 0V20"/></symbol>
+  <symbol id="i-mensaje" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+  <symbol id="i-tablon" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="13" rx="1.5"/><path d="M7 21l2-4M17 21l-2-4M7.5 8h9M7.5 11.5h6"/></symbol>
+  <symbol id="i-ojo" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-contrato" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 15.5h6M9 19h3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-correo" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="m3.5 6.5 8.5 7 8.5-7"/></symbol>
+  <symbol id="i-documento" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/></symbol>
+  <symbol id="i-abajo" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-farmacia" viewBox="0 0 24 24"><path d="M9 3.5h6v5.5h5.5v6H15v5.5H9V15H3.5V9H9V3.5Z"/></symbol>
+  <symbol id="i-mas" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h10"/><path d="M18 15v5M15.5 17.5h5"/></symbol>
+  <symbol id="i-movil" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2"/><path d="M10.5 18.5h3"/><path d="M12 7v3.5M12 12.8v.1"/></symbol>
+  <symbol id="i-padron" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 16.5a3 3 0 0 1 6 0M14 10h4M14 13.5h4"/></symbol>
+  <symbol id="i-carrito" viewBox="0 0 24 24"><path d="M3 5h2.5l1.2 3M11 4v6H6.7M6.7 8h11.8a3.5 3.5 0 0 1-3.5 4.5H9a2.5 2.5 0 0 1-2.3-1.6"/><circle cx="8" cy="18" r="2"/><circle cx="16" cy="18" r="2"/><path d="M9.5 12.5 8.3 16M14.5 12.5l1 3.5"/></symbol>
+  <symbol id="i-volante" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/><circle cx="12" cy="13.5" r="2.5"/><path d="m10.6 15.6-1 3.4 2.4-1.2 2.4 1.2-1-3.4"/></symbol>
+  <symbol id="i-incidencia" viewBox="0 0 24 24"><path d="M5 21h6M8 21V7.5A4.5 4.5 0 0 1 12.5 3H15"/><path d="M13 7.5h6L17.5 4h-3L13 7.5Z"/><path d="M16 10.5v1.5M19.5 9.5l1 1M12.5 9.5l-1 1"/></symbol>
+  <!-- v3c · transparencia: el maletín del empleo (chip y ficha de «Hoy») -->
+  <symbol id="i-empleo" viewBox="0 0 24 24"><rect x="3" y="7.5" width="18" height="12" rx="1.5"/><path d="M9 7.5V5.5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 12.5h18M10.5 12.5v1.5h3v-1.5"/></symbol>
+</svg>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <!-- arriba, un solo bloque: la banda de propuesta (en todas las páginas) y la franja del aviso
+       destacado, que en escritorio comparten fila y en móvil se apilan sin recortar el texto -->
+  <div class="bandas con-propuesta">
+    <div class="propuesta" data-propuesta>
+      <p class="propuesta__texto"><b>Propuesta de diseño</b><span class="propuesta__largo"> para el Ayuntamiento de Montemolín</span> · no es la web oficial</p>
+    </div>
+    <div class="franja-urgente" data-vivo="franja" hidden></div>
+  </div>
+  <div class="cabecera__barra">
+    <div class="contenedor cabecera__dentro">
+      <a class="cabecera__marca" href="index.html">
+        <img class="cabecera__escudo" src="marca/escudo-160.png" width="92" height="160" alt="">
+        <span class="cabecera__nombre"><span class="cabecera__ante">Ayuntamiento de</span> Montemolín</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <div class="menu__cabeza">
+          <p class="menu__titulo">Menú</p>
+          <button class="boton-icono menu__cerrar" type="button" data-cerrar-menu><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el menú</span></button>
+        </div>
+        <ul class="menu__lista">
+          <li><a class="menu__enlace" href="ayuntamiento.html">El Ayuntamiento</a></li>
+          <li><a class="menu__enlace" href="tramites.html">Trámites</a></li>
+          <li><a class="menu__enlace" href="avisos.html">Avisos</a></li>
+          <li><a class="menu__enlace" href="noticias.html">Noticias</a></li>
+          <li><a class="menu__enlace" href="agenda.html">Agenda</a></li>
+          <li><a class="menu__enlace" href="pueblo.html" aria-current="page">El pueblo</a></li>
+          <li><a class="menu__enlace" href="telefonos.html">Teléfonos</a></li>
+          <li><a class="menu__enlace" href="contacto.html">Contacto</a></li>
+          
+        </ul>
+        <a class="boton boton--marca menu__sede" href="https://sede.montemolin.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+      </nav>
+      <div class="cabecera__acciones">
+        <a class="boton boton--marca cabecera__sede" href="https://sede.montemolin.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+        <a class="boton-icono" href="tramites.html#buscar" data-abrir-buscador><svg class="icono" aria-hidden="true"><use href="#i-lupa"/></svg><span class="sr">Buscar un trámite</span></a>
+        <button class="boton-menu" type="button" aria-expanded="false" aria-controls="menu" data-boton-menu hidden><svg class="icono" aria-hidden="true"><use href="#i-menu"/></svg>Menú</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<dialog class="buscador" id="buscador" aria-labelledby="buscador-titulo">
+  <div class="buscador__cabeza">
+    <h2 class="buscador__titulo" id="buscador-titulo">Buscar en la web</h2>
+    <form method="dialog"><button class="boton-icono" type="submit"><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el buscador</span></button></form>
+  </div>
+  <div class="campo" role="search">
+    <label class="campo__etiqueta" for="buscador-campo">¿Qué necesita hacer?</label>
+    <input class="campo__entrada" id="buscador-campo" type="search" autocomplete="off" spellcheck="false" placeholder="Padrón, recibos, obras…" aria-describedby="buscador-ayuda" data-buscador-campo>
+  </div>
+  <p class="campo__ayuda" id="buscador-ayuda">Escríbalo con sus palabras: trámites (en la sede electrónica), avisos, noticias, teléfonos y lugares del pueblo.</p>
+  <p class="buscador__cuenta" role="status" data-buscador-cuenta></p>
+  <div class="resultados" data-buscador-resultados data-buscador-nivel="3"></div>
+  <p class="buscador__pie"><a href="tramites.html#todos">Ver la lista de todos los trámites</a></p>
+</dialog>
+
+<main id="contenido" tabindex="-1">
+<div class="cabeza-pagina cabeza-pagina--foto cabeza-pagina--grande">
+  <div class="contenedor cabeza-pagina__rejilla">
+    <nav class="migas" aria-label="Usted está aquí">
+      <ol>
+        <li><a href="index.html">Inicio</a></li>
+        
+        <li><span aria-current="page">El pueblo</span></li>
+      </ol>
+    </nav>
+    <h1 class="cabeza-pagina__titulo" id="titulo-pagina">El pueblo</h1>
+    <p class="entradilla">En el sur de Badajoz, entre la dehesa y Sierra Morena, Montemolín guarda un castillo almohade y una parroquia del siglo XVI. Tiene a su cargo Pallares y Santa María de Nava.</p>
+    <figure class="cabeza-pagina__puerta">
+      <div class="cabeza-pagina__arco arco-opcional"><img src="media/castillo.jpg" srcset="media/castillo-800.jpg 800w, media/castillo.jpg 1504w" sizes="(min-width: 64em) 34rem, (min-width: 48em) 16rem, 92vw" width="1504" height="1000" alt="El castillo almohade de Montemolín sobre una colina de hierba, con sus torres y lienzos de muralla bajo un cielo azul" style="object-position: 50% 45%" fetchpriority="high" decoding="async"></div>
+      <span class="cabeza-pagina__umbral" aria-hidden="true"></span>
+      <figcaption class="credito">Foto: Ayuntamiento de Montemolín (web municipal) · Sin licencia declarada: solo para esta maqueta</figcaption>
+    </figure>
+    
+  </div>
+</div>
+<div class="contenedor con-indice">
+  <nav class="indice indice--movil" aria-label="En esta página">
+    <details class="indice__plegable" open><summary class="indice__resumen">En esta página</summary>
+      <ol class="indice__lista"><li><a href="#t-lugares">Qué ver</a></li><li><a href="#t-termino">El término en un mapa</a></li><li><a href="#t-visitas">Para visitar</a></li><li><a href="#t-historia">Historia</a></li><li><a href="#t-patrimonio">Patrimonio</a></li><li><a href="#t-anio">Fiestas</a></li><li><a href="#t-personajes">Personajes</a></li><li><a href="#t-rutas">Rutas</a></li><li><a href="#t-creditos">Créditos de las fotos</a></li></ol>
+    </details>
+    <script>/* plegado en el móvil antes de pintarse (sin JavaScript, abierto: se ve la lista) */ (function (d) { if (window.matchMedia && matchMedia('(max-width: 63.99em)').matches) d.open = false; })(document.currentScript.previousElementSibling);</script>
+  </nav>
+  <nav class="indice indice--lateral" aria-labelledby="indice-titulo">
+    <p class="indice__titulo" id="indice-titulo">En esta página</p>
+    <ol class="indice__lista"><li><a href="#t-lugares">Qué ver</a></li><li><a href="#t-termino">El término en un mapa</a></li><li><a href="#t-visitas">Para visitar</a></li><li><a href="#t-historia">Historia</a></li><li><a href="#t-patrimonio">Patrimonio</a></li><li><a href="#t-anio">Fiestas</a></li><li><a href="#t-personajes">Personajes</a></li><li><a href="#t-rutas">Rutas</a></li><li><a href="#t-creditos">Créditos de las fotos</a></li></ol>
+  </nav>
+  <div class="con-indice__cuerpo">
+
+
+
+
+<section class="seccion seccion--primera con-paralaje" aria-labelledby="t-lugares">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-lugares">Qué ver</h2>
+    <div class="carril" data-desborda role="group" aria-labelledby="t-lugares">
+      <ul class="carril__lista">
+        <li class="lugar" id="lugar-parroquia-de-la-purisima-concepcion">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/parroquia-800.jpg" width="1600" height="1060" alt="La torre y la fachada de piedra de la parroquia de la Purísima Concepción, con su campanario y su reloj, bajo un cielo azul" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Parroquia de la Purísima Concepción</h3>
+          <p class="lugar__texto">Gótico-renacentista, de nave única y piedra sin encalar, empezada tras un privilegio de Carlos I de 1523. El retablo mayor se pintó entre 1625 y 1677.</p>
+          <p class="credito">Foto: Adolfobrigido · CC BY-SA 4.0</p>
+        </li>
+        <li class="lugar" id="lugar-ermita-de-nuestra-senora-de-la-granada">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/ermita-granada-800.jpg" width="1600" height="1200" alt="Muro de piedra de la ermita de la Granada, con su portada de arco y una columna blanca delante" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Ermita de Nuestra Señora de la Granada</h3>
+          <p class="lugar__texto">Fue la primera parroquia de la villa, bajo la advocación de Santiago Apóstol. Junto a ella está el Paseo de Martín Álvarez.</p>
+          <p class="credito">Foto: Ayuntamiento de Montemolín (web municipal) · Sin licencia declarada: solo para esta maqueta</p>
+        </li>
+        <li class="lugar" id="lugar-ermita-de-san-blas">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/ermita-san-blas-800.jpg" width="1504" height="1000" alt="La ermita de San Blas, encalada, con una espadaña de dos campanas y un crucero blanco con una cruz de hierro" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Ermita de San Blas</h3>
+          <p class="lugar__texto">Ermita encalada con espadaña y un crucero blanco. San Blas se celebra el 3 de febrero, fiesta local de Montemolín.</p>
+          <p class="credito">Foto: Ayuntamiento de Montemolín (web municipal) · Sin licencia declarada: solo para esta maqueta</p>
+        </li>
+        <li class="lugar" id="lugar-iglesia-de-santa-maria-magdalena-en-pallares">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/iglesia-pallares-800.jpg" width="1600" height="1200" alt="La iglesia de Pallares, encalada, con una espadaña de dos campanas y un arco de entrada, bajo un cielo azul" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Iglesia de Santa María Magdalena, en Pallares</h3>
+          <p class="lugar__texto">La iglesia de Pallares, que está a 8 kilómetros de Montemolín. Su patrona es Santa María Magdalena, el 22 de julio.</p>
+          <p class="credito">Foto: Ayuntamiento de Montemolín (web municipal) · Sin licencia declarada: solo para esta maqueta</p>
+        </li>
+        <li class="lugar" id="lugar-iglesia-de-santa-maria">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/santa-maria-nava-800.jpg" width="1600" height="1067" alt="El pueblo de Santa María de Nava en el valle, con sierras al fondo y campos alrededor" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Iglesia de Santa María</h3>
+          <p class="lugar__texto">Santa María de Nava es el otro núcleo del término, a 21 kilómetros de Montemolín. Su iglesia es la de Santa María y su plaza, la Plaza de España.</p>
+          <p class="credito">Foto: Ayuntamiento de Montemolín (web municipal) · Sin licencia declarada: solo para esta maqueta</p>
+        </li>
+        <li class="lugar" id="lugar-castillo-almohade">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/castillo-800.jpg" width="1504" height="1000" alt="El castillo almohade de Montemolín sobre una colina de hierba, con sus torres y lienzos de muralla bajo un cielo azul" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Castillo almohade</h3>
+          <p class="lugar__texto">Fortaleza del siglo XII sobre una colina al oeste del pueblo, de unos 130 por 50 metros. Conserva siete cubos, la torre del Homenaje (hoy mirador), una mazmorra y un aljibe.</p>
+          <p class="credito">Foto: Ayuntamiento de Montemolín (web municipal) · Sin licencia declarada: solo para esta maqueta</p>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-termino">
+  <div class="contenedor termino">
+    <h2 class="seccion__titulo" id="t-termino">El término en un mapa</h2>
+    <figure class="termino__figura">
+      <svg class="termino__mapa" viewBox="0 0 600 767" aria-hidden="true" focusable="false"><rect class="termino-fondo" width="600" height="767"/><path class="termino-area" d="M582 650.2L575.3 651.1L573.3 653.8L567.3 657.4L564.4 656.9L562 658.1L559.7 657.4L554.4 653L548.7 651.2L536.2 652.6L532.9 655.4L529.4 663.7L526.4 667L522.2 668.2L516.9 666.7L515.8 668.5L513.5 667.9L506.7 675.9L498.1 677.3L477.4 687.3L468.2 684.2L454.8 685.9L449.7 687.6L440 695.9L416.6 692.7L393.1 695.4L385.4 699.1L378.9 703.9L373.8 708.6L369.7 713.5L360.5 720.2L358 719.9L352 722.6L346.1 722.7L335.1 707.2L308.6 652.4L303.2 643.3L283.8 600.7L426.4 686.8L434.2 678.5L434 674.2L435.3 670.5L434.5 666.5L429.5 666L425.1 664.6L423.8 643.2L416.4 602.8L419 602.9L423 600.4L426.9 602.2L428.3 598.6L428.6 595.9L423.8 589.9L423.6 583.8L426.5 580.4L431.6 577.6L439.6 570.5L447.3 568.9L450.6 566.7L460.1 566.4L463.8 568.4L474.9 569L475.3 567.1L476.4 566.2L479.2 566.8L486.7 565.7L494.3 569.1L497.7 568.7L503.1 565.9L509.5 568.6L517.1 568.6L527.9 579.2L528.8 584.4L527.8 589.8L528.3 594.8L527.8 600.2L524.9 602.7L523.1 606.4L570 643.2L575.9 644.8L582 650.2ZM402.3 448.6L407 437.6L404.4 434.4L400 433.3L399.8 432.1L402.3 426.7L398.8 419.9L397.7 414.9L393.1 412.7L388.5 413.3L381.3 409.5L377.9 406L379.3 405.5L378.6 404L377 404.1L373.7 398.7L364.5 397.9L365.1 395.4L363 393.8L360.2 393.4L359.6 392.2L357.8 387.6L360.5 386.1L362.4 386.8L367.7 381.7L367.7 380.4L362.4 376.1L359.8 373L356 371.3L355.1 369.4L357.8 350.1L356 337.1L356.7 333.3L351.6 329.9L349.4 326.8L338.1 309.7L338.1 307.5L331.1 295.3L322.4 281.9L326.9 278.3L327.9 278.2L337.8 282L341.4 283.7L345.1 287.3L351.2 289.4L354.6 288.3L357.7 282.7L360.8 280.1L361.9 279.6L365.8 280.3L370.4 284.3L376.9 286.2L379.5 289.2L384.3 291L387.9 293.5L391.4 297.1L392.7 300.7L394.7 303L396.8 303.8L399 306.1L403.4 308.5L409.1 307.3L411.4 309L413.8 309.1L413.9 306.8L420 301.3L425 298.8L427.2 300L431.3 298.2L432.8 297.4L434.5 294.1L441.8 290.5L444 292.2L444.7 292L446.2 290.4L450.2 289L450.6 286.2L456.1 282.7L458.9 282.4L460.2 280.7L460.6 276.5L465.5 272.9L468.9 265.4L476.8 263.4L478.5 264.4L479 266.1L487.8 252.7L488.8 244.9L487.8 240.1L484.9 232.7L482.8 230.8L477.2 230.8L471.3 225.9L470.7 224.3L472.6 220.8L472.1 218.6L467.2 214.8L465.8 209.9L467.9 204.3L468.2 201.6L419.9 187.4L405.2 190L393.3 187.7L390.8 186L379.3 182.4L375.6 179.9L353.8 171.6L349.5 172.4L342 168.8L338.3 168.1L340.1 161.8L338.3 159.7L338.8 156L336.9 154L337.1 151.5L336.4 149.4L338 143.9L343.3 138.3L344.8 137.7L344.6 134.7L348 133.8L350.9 126.9L354.4 125.2L356.9 121.2L360.6 120L365.6 111.7L369.7 111.6L371.6 110.5L377.1 102.6L382.3 97.6L381.8 93.8L382.7 92L388.1 88.8L411.6 69.1L416.1 69.5L418.9 68L422.8 63.2L421.1 59.7L423.6 55.5L421.6 55.7L418.1 54.7L414.1 48.8L408.1 45.4L406 43.4L399.7 41.7L398.7 38.1L398.5 27.2L397.1 26.9L394.5 27.8L393 25.7L388.5 25.1L387.4 22.4L385.5 21.6L382.1 18L368.6 29.9L347.9 28.7L333.7 35.1L315.5 34.1L294.5 29.7L280.7 36.1L246 29.9L237.7 26.6L198.9 34L180.9 39.1L176.4 32.1L175.8 29.9L169.9 35.3L169 39.1L129.6 66.3L116.7 73L109.3 82.3L107.5 87.1L103.2 92.5L99.6 95.3L85.6 102.1L76.3 108.6L58 130.6L49.6 138.8L34.7 150L21.8 164.5L18 171.1L37.2 201.4L39.2 205.8L46.5 211.5L45.7 215.5L43.4 219.6L44.6 230.1L43.4 241L45 246.4L43.8 251.7L41.9 254L38.8 255.1L26.2 266L25.5 269.2L26.7 275.2L31.5 280.5L32.1 283.8L33.4 282.7L36.7 282.9L47.8 287.4L54.9 287.3L59.8 288.9L62.9 290.9L65 294.1L68 294.4L71.3 296.8L77.1 298.1L87.3 303.5L90.6 304.3L102.1 303.5L114.2 290.9L117.3 292.3L155.5 320.6L176.7 339.1L189.9 347.3L207.1 356.9L228 367L230.2 369.4L232.5 368.2L241.3 370.6L243.4 370.2L246.7 376.2L248.4 376.7L252.3 379.9L256.3 380.8L259 385.4L265.2 384.4L266.2 385.3L267 389.3L270.5 391.9L273.9 392.1L277.5 402.9L274.2 434.5L356.8 463.6L402.3 448.6Z"/><path class="termino-casco" d="M305.5 322.4L309.8 319.6L316.5 322.9L315.4 324.6L316.7 325.8L317.5 325.1L318.2 326.1L314.1 329.1L314 330.6L322.4 343L320.2 344.3L319.3 341.7L312.8 331.9L309.4 329.4L307.4 329.7L306.4 327.8L307.4 327.1L307.2 325.5L305.5 322.4Z"/><path class="termino-carretera" d="M66 403L63.3 390.2L60.4 382.4L46.4 360.7L42.2 349.4L41.7 337.2L47.3 314.1L47.9 309.9L47.6 300.3L44.6 289.7L36.4 271L34.3 258.7M0 27.4L4.3 39L6.4 46.9L9.5 69.3L11.4 77.3L14 84.3L21.2 98.8L23.6 107.9L23.9 115.5L22.6 132.9L25.1 150.5L25.4 158.3L24.4 164.7L17.5 187L17.2 195.8L18.3 202.7L20.8 209.6L29.9 226L32.5 232.5L33.9 240.5L33.8 258.2M431.1 242.7L423.4 247.4L421.1 249.9L420.3 253.3L420.6 262L419.6 264.2L417.1 266.4L402.7 267.4L390.8 269.9L377.9 270.1L366.9 272.8L362.3 275.5L358 280L356.1 284.7M432.6 241.1L431.1 242.7M32.8 259.2L32.2 261.1M39.4 255.5L35.8 256L34.7 251.8L34.5 244M33.8 258.8L35.9 271L45.6 292.9L47.7 303.9L46.8 314.4L41.3 337.2L41.7 349.6L45.9 360.9L57 377.1L60.5 383.8L63.4 392.7L65.5 403.2M36.2 258.2L36.7 256.7L39.4 255.5M29.2 263.3L31.2 260.8L32.2 261.1L36.8 273.6M36.2 258.2L35.2 257.5M34.3 257.9L34.4 240.7L32.6 231.1L21.3 209.4L18.8 202.5L17.6 195.6L18 187L19.4 180.6L23.7 168.8L25.9 158.3L25.6 150.4L23.1 132.9L24.4 115.5L24.1 107.7L21.6 98.6L11.9 77.2L9.9 69.2L6.8 46.8L3.7 35.4L0 26.1M26.6 265.6L31.3 260.4L36.3 256.8L41.3 255L44.3 252.5L55 248L61.5 243.1L68 239.5L69.4 237.7L70.5 233.1L80.7 222L87.4 219.3L91.8 215.2L103.7 211.7L107.5 211.7L112.9 209.3M325.6 359.7L327.9 364.3L336.4 371.8L342.2 381.8L344.6 387L347.8 399.3L356.5 415.8L375 434.4L395.1 443L401.9 449M293.4 346.2L288.6 371.8L288 373L285.1 374.9L290.6 377.9L290.2 384L287.2 388L284.4 389.4L281.2 392.4L280.6 398.6L277.7 399.5L276.5 404.6L270 404.4L264.2 408.1L264.5 409.6L263.9 411.1L265.7 413.2L265 416.5L265.8 420.2L264.1 422.1L267.9 425.2L266.9 426.7L266.9 430.8L268.6 436.9L268.1 440.4L269.3 443L268.9 444.5L264.3 446.6L261.6 445.5L259.8 445.8L258 447.6L256.7 451.3L252.4 455L248.5 454.9L246.2 453.1L244.6 456.6L237.4 459.4L235.6 461.4L234.6 464.5L230.1 466.4L231.5 469.2L229 474.1L235.3 478L238.3 478.5L241.2 476.8L242.1 477.8L241.6 479.2L232 483.1L230.2 481.1L224.5 481.9L218.7 485.8L214.2 487.3L214.1 488.4L215.4 489.4L217.4 494.1L203.9 525.3L203.8 530.4L199.7 537L192.7 545.9L185 549.6L178.1 557.2L172.8 558.9L168.6 558.5L162.4 565.1M38.4 25.5L40.7 28.2L46.3 32.2L54.7 41.1L57.4 42.4L66.5 42.7L70.8 45.4L78.1 56.2L79.7 60.4L92.7 76.1L101.2 81.1L111.8 90.2L117.5 100.7L124.6 109.2L126.4 112.5L127 116L126.5 136L128.5 142.7M432.6 241.1L440.2 235.5L446.5 218.8L451.5 212.1L451.9 209.4L450.6 201.6L451.8 197.4L458.4 192.8L464.3 190.1M355.8 286.1L357.3 288.5L361.1 290.1L365.7 295.4L370 304.5L376.8 309.6L384.9 326.2L388.7 330L399.3 344.6L405.5 348.2L411.7 355.7L420.1 362.4L421.3 368.6L422.7 371.1L431.1 377.5L438.7 381.7L453.5 396.5L459.1 399.4M114.1 209.5L123.5 204L125.7 204.4L130.6 207.1L141.7 208.4L151 205.5L157.9 206L164.2 203.9M180 200.1L183.7 194.4L182.4 182.6L184.6 181.2L188.3 181.6L189.3 180.5L186.2 175.9L185.9 170.1L188 167.4L192.3 165.6M468.8 599.8L471.7 600.8M324.2 767L327.7 765.1L329.9 755.7L335 749.7L336.1 747L336.3 743.3L335 737.6L336.6 733.1L341.1 727.9L342.6 722.6L345.9 720.4L348.9 719.7L351.4 720.3L362.9 715.4L365 712.4L369.2 710.4L373.2 704.8L375.7 703.6L378.7 699.1L384.5 694.3L396.4 689.7L402.8 689.3L406.1 687.4L408.3 687.5L412.6 685.9L428.9 687.3L433.3 689L435.8 691.7L441.8 687.8L447.2 686.3L446.5 684.2L448.1 682.6L455.3 681.2L458.2 678.7L468.1 677.3L470.7 670.8L468.4 655.5L466.6 653.8L460.8 651.2L459.7 645.6L461.6 642.9L461.3 640.2L462.8 634.8L462.8 623.6L464.9 618.6L469.3 611.6L472 604.8L472.1 602.9M415.8 480L415.8 482.1L421.6 491.8L421.6 497L422.4 500.2L425.8 503L430.8 505L437 505.8L438 507.9L436.2 510.8L437.3 513.3L443.8 517.3L443.5 518.8L439.2 521L441.1 524.5L437.7 530.9L442.3 539.9L444.3 546.6L441.1 553.6L437.6 554.3L435.5 552.9L435.2 553.8L436 555.1L440.6 556.1L445.1 559.5L448.9 567.6L447.4 574.1L443.5 575.6L441.9 577.7L441.4 580.9L443.3 582.4L445.8 581.9L447.5 582.5L450.1 586.1L452.6 592.3L453.3 596L452.7 600.2L453.7 602.4L456.5 603.4L462.4 602M128.5 142.7L128.8 143.7M128.8 143.7L131.5 149.5L135.1 151.7L137.9 155.6L142 159L143.1 163.5L145.3 165.3L148.3 169.7L150.5 175.7L151.6 181.9L163.3 195.5L166 197.1L178.3 199.3L181 201L185.4 207.2L190.8 212L194.8 219.6L194.8 224.8L198.1 228.8L210.4 235.3L215.6 244.5L227.6 248.2L231.6 252.4L237.2 256.2L240.2 260.5L250.1 269L251.1 273.7L254.3 276.1L257.5 281.6L264.2 285.9L272 288.9L275.3 291.5L283.8 294.4L289 297.6L293.6 303.5L301.1 317.8L306.5 322.7L309 327.8M112.9 209.3L114.1 209.5M535.2 570L533.3 572.7L531.6 573.4L530.8 576.8L529.2 579L526.2 581.3L518.4 577.4L514.7 577L509.7 578.9L508.6 580.9L507.3 590.1L499.9 597.9L494.1 600.1L488.4 600.5L481.2 599.9L478.3 601.8M159 205.5L159.4 203.8L163 198.7L162.4 195.5L159.1 192.1L159 190.6M37.4 273.5L35.7 266.7L36.2 258.2M293.4 346.2L294.2 342.7M294.2 342.7L292.5 345.5M292 345.8L289.8 346.9L285.2 347.4L270.1 346.4L250.1 348.1L230.2 345.8L219.3 346.6L215.4 348.5L207.6 354.3L197.6 354.6L193.6 356.2L177 374.6L174.2 376.4L165.9 379.1L161.4 377.9L143.7 366.6L127.4 364.3L112.2 366.7L101.7 373.1L85.3 378.7L80.7 379.3M292.5 345.5L292 345.8M355.1 288L356.3 286.5M356.1 284.7L355.8 286.1M355.1 288L351.9 290.2L349 290.1L340.6 286.2L336.9 282.9L335 282.5L333.3 283.3L332.4 284.9L332.6 286.5L336.6 292.6L337.8 296L337.8 299L336.7 301.9L334.6 304.2L322 313L318.5 318.5L310.9 326.9L304 329.8L297.2 334.1L295.6 336.6L294.2 342.7M355.8 286.1L355.1 288M476.8 602.5L474 607.7L470.6 607.5M462.4 602L468.8 599.8M472.3 600.8L471.7 600.9L472.4 601.5L472.3 600.8M478.3 601.8L476.8 602.5M472.1 602.9L472.4 601.5M292 345.8L293 345.9M292.5 345.5L293.2 345.7M292.8 345.2L293.4 346.2M356.3 286.5L356.1 284.7M309 327.8L314.2 332.2L319.4 340L322.7 354.1L325.5 359.3M325.5 359.3L325.6 359.7"/><path class="termino-limite" d="M582 650.2L575.3 651.1L573.3 653.8L567.3 657.4L564.4 656.9L562 658.1L559.7 657.4L554.4 653L548.7 651.2L536.2 652.6L532.9 655.4L529.4 663.7L526.4 667L522.2 668.2L516.9 666.7L515.8 668.5L513.5 667.9L506.7 675.9L498.1 677.3L477.4 687.3L468.2 684.2L454.8 685.9L449.7 687.6L440 695.9L416.6 692.7L393.1 695.4L385.4 699.1L378.9 703.9L373.8 708.6L369.7 713.5L360.5 720.2L358 719.9L352 722.6L346.1 722.7L335.1 707.2L308.6 652.4L303.2 643.3L283.8 600.7L426.4 686.8L434.2 678.5L434 674.2L435.3 670.5L434.5 666.5L429.5 666L425.1 664.6L423.8 643.2L416.4 602.8L419 602.9L423 600.4L426.9 602.2L428.3 598.6L428.6 595.9L423.8 589.9L423.6 583.8L426.5 580.4L431.6 577.6L439.6 570.5L447.3 568.9L450.6 566.7L460.1 566.4L463.8 568.4L474.9 569L475.3 567.1L476.4 566.2L479.2 566.8L486.7 565.7L494.3 569.1L497.7 568.7L503.1 565.9L509.5 568.6L517.1 568.6L527.9 579.2L528.8 584.4L527.8 589.8L528.3 594.8L527.8 600.2L524.9 602.7L523.1 606.4L570 643.2L575.9 644.8L582 650.2ZM402.3 448.6L407 437.6L404.4 434.4L400 433.3L399.8 432.1L402.3 426.7L398.8 419.9L397.7 414.9L393.1 412.7L388.5 413.3L381.3 409.5L377.9 406L379.3 405.5L378.6 404L377 404.1L373.7 398.7L364.5 397.9L365.1 395.4L363 393.8L360.2 393.4L359.6 392.2L357.8 387.6L360.5 386.1L362.4 386.8L367.7 381.7L367.7 380.4L362.4 376.1L359.8 373L356 371.3L355.1 369.4L357.8 350.1L356 337.1L356.7 333.3L351.6 329.9L349.4 326.8L338.1 309.7L338.1 307.5L331.1 295.3L322.4 281.9L326.9 278.3L327.9 278.2L337.8 282L341.4 283.7L345.1 287.3L351.2 289.4L354.6 288.3L357.7 282.7L360.8 280.1L361.9 279.6L365.8 280.3L370.4 284.3L376.9 286.2L379.5 289.2L384.3 291L387.9 293.5L391.4 297.1L392.7 300.7L394.7 303L396.8 303.8L399 306.1L403.4 308.5L409.1 307.3L411.4 309L413.8 309.1L413.9 306.8L420 301.3L425 298.8L427.2 300L431.3 298.2L432.8 297.4L434.5 294.1L441.8 290.5L444 292.2L444.7 292L446.2 290.4L450.2 289L450.6 286.2L456.1 282.7L458.9 282.4L460.2 280.7L460.6 276.5L465.5 272.9L468.9 265.4L476.8 263.4L478.5 264.4L479 266.1L487.8 252.7L488.8 244.9L487.8 240.1L484.9 232.7L482.8 230.8L477.2 230.8L471.3 225.9L470.7 224.3L472.6 220.8L472.1 218.6L467.2 214.8L465.8 209.9L467.9 204.3L468.2 201.6L419.9 187.4L405.2 190L393.3 187.7L390.8 186L379.3 182.4L375.6 179.9L353.8 171.6L349.5 172.4L342 168.8L338.3 168.1L340.1 161.8L338.3 159.7L338.8 156L336.9 154L337.1 151.5L336.4 149.4L338 143.9L343.3 138.3L344.8 137.7L344.6 134.7L348 133.8L350.9 126.9L354.4 125.2L356.9 121.2L360.6 120L365.6 111.7L369.7 111.6L371.6 110.5L377.1 102.6L382.3 97.6L381.8 93.8L382.7 92L388.1 88.8L411.6 69.1L416.1 69.5L418.9 68L422.8 63.2L421.1 59.7L423.6 55.5L421.6 55.7L418.1 54.7L414.1 48.8L408.1 45.4L406 43.4L399.7 41.7L398.7 38.1L398.5 27.2L397.1 26.9L394.5 27.8L393 25.7L388.5 25.1L387.4 22.4L385.5 21.6L382.1 18L368.6 29.9L347.9 28.7L333.7 35.1L315.5 34.1L294.5 29.7L280.7 36.1L246 29.9L237.7 26.6L198.9 34L180.9 39.1L176.4 32.1L175.8 29.9L169.9 35.3L169 39.1L129.6 66.3L116.7 73L109.3 82.3L107.5 87.1L103.2 92.5L99.6 95.3L85.6 102.1L76.3 108.6L58 130.6L49.6 138.8L34.7 150L21.8 164.5L18 171.1L37.2 201.4L39.2 205.8L46.5 211.5L45.7 215.5L43.4 219.6L44.6 230.1L43.4 241L45 246.4L43.8 251.7L41.9 254L38.8 255.1L26.2 266L25.5 269.2L26.7 275.2L31.5 280.5L32.1 283.8L33.4 282.7L36.7 282.9L47.8 287.4L54.9 287.3L59.8 288.9L62.9 290.9L65 294.1L68 294.4L71.3 296.8L77.1 298.1L87.3 303.5L90.6 304.3L102.1 303.5L114.2 290.9L117.3 292.3L155.5 320.6L176.7 339.1L189.9 347.3L207.1 356.9L228 367L230.2 369.4L232.5 368.2L241.3 370.6L243.4 370.2L246.7 376.2L248.4 376.7L252.3 379.9L256.3 380.8L259 385.4L265.2 384.4L266.2 385.3L267 389.3L270.5 391.9L273.9 392.1L277.5 402.9L274.2 434.5L356.8 463.6L402.3 448.6Z"/><path class="termino-zona" d="M152.7 187.6H177.6V212.4H152.7Z"/><path class="termino-guia" d="M152.7 212.4L216 366"/><g class="termino-recuadro"><rect class="termino-fondo" x="6" y="366" width="210" height="210"/><path class="termino-area" d="M7 367L7 575L215 575L215 367L7 367Z"/><path class="termino-carretera" d="M7 515.1L22.5 515.6L34.9 518.1L42.7 521L49.6 521.9L53.5 521.5L61.7 514.9L65.6 512.6L71.9 510.3L85.4 506.1L103.2 503.5M37.6 367L90.9 427.8L100.2 437.5L105.6 441.4L111.6 444.3L118.1 446.1L125.1 447L147.2 447.6L154.5 448.5L195.2 461L215 463.7M59 517.1L58.9 514.6L62.1 503.3L70.3 494.3L82.5 478.8L86.1 466.1L92.4 459.6L90.1 438.6L88.1 432.9L84.9 427.2L80.2 421.2L75.2 416.1L63.5 408.4L60.2 404L57.7 399L57.3 393.6L59.1 391.5"/><path class="termino-guia" d="M57.3 451.1L36.7 429.3"/><path class="termino-sitio" d="M54.7 451.1a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-guia" d="M92.2 468.1L88.6 438.3"/><path class="termino-sitio" d="M89.6 468.1a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-guia" d="M89.2 472L63.1 486.9"/><path class="termino-sitio" d="M86.6 472a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-escala" d="M14 564h54.3M14 560v8M68.3 560v8"/><text class="termino-escala-texto" x="74.3" y="564" dy=".35em">250 m</text><rect class="termino-marco" x="6" y="366" width="210" height="210"/></g><g class="termino-ref"><rect x="379.3" y="339.3" width="47.6" height="15" rx="3"/><text x="403.1" y="346.8" text-anchor="middle" dy=".35em">BA-110</text></g><g class="termino-ref"><rect x="46" y="228.6" width="47.6" height="15" rx="3"/><text x="69.8" y="236.1" text-anchor="middle" dy=".35em">BA-094</text></g><path class="termino-escala" d="M18 755h128.5M18 751v8M146.5 751v8"/><text class="termino-escala-texto" x="152.5" y="755" dy=".35em">5 km</text><a class="termino-punto" href="#lugar-castillo-almohade" tabindex="-1"><circle cx="36.7" cy="429.3" r="15"/><text x="36.7" y="429.8" text-anchor="middle" dy=".35em" font-size="15">1</text></a><a class="termino-punto" href="#lugar-parroquia-de-la-purisima-concepcion" tabindex="-1"><circle cx="164.7" cy="490.9" r="15"/><text x="164.7" y="491.4" text-anchor="middle" dy=".35em" font-size="15">2</text></a><a class="termino-punto" href="#lugar-ermita-de-nuestra-senora-de-la-granada" tabindex="-1"><circle cx="88.6" cy="438.3" r="15"/><text x="88.6" y="438.8" text-anchor="middle" dy=".35em" font-size="15">3</text></a><a class="termino-punto" href="#lugar-iglesia-de-santa-maria-magdalena-en-pallares" tabindex="-1"><circle cx="308.5" cy="327.5" r="15"/><text x="308.5" y="328.0" text-anchor="middle" dy=".35em" font-size="15">4</text></a><a class="termino-punto" href="#lugar-iglesia-de-santa-maria" tabindex="-1"><circle cx="471.8" cy="600.4" r="15"/><text x="471.8" y="600.9" text-anchor="middle" dy=".35em" font-size="15">5</text></a><a class="termino-punto" href="#lugar-ermita-de-san-benito" tabindex="-1"><circle cx="197.8" cy="254.5" r="15"/><text x="197.8" y="255.0" text-anchor="middle" dy=".35em" font-size="15">6</text></a><a class="termino-punto" href="#lugar-paseo-y-monumento-de-martin-alvarez" tabindex="-1"><circle cx="63.1" cy="486.9" r="15"/><text x="63.1" y="487.4" text-anchor="middle" dy=".35em" font-size="15">7</text></a></svg>
+      <figcaption class="termino__pie">Mapa del término municipal de Montemolín, dibujado con datos de OpenStreetMap a 5 de octubre de 2026. <a href="https://www.openstreetmap.org/copyright">© colaboradores de OpenStreetMap<span class="sr">, se abre otra web</span></a>.</figcaption>
+    </figure>
+    <div class="termino__leyenda">
+      <h3 class="termino__titulo">Lugares del mapa</h3>
+      <ol class="termino__lugares">
+        <li><a href="#lugar-castillo-almohade"><span class="termino__num" aria-hidden="true">1</span>Castillo almohade</a></li>
+        <li><a href="#lugar-parroquia-de-la-purisima-concepcion"><span class="termino__num" aria-hidden="true">2</span>Parroquia de la Purísima Concepción</a></li>
+        <li><a href="#lugar-ermita-de-nuestra-senora-de-la-granada"><span class="termino__num" aria-hidden="true">3</span>Ermita de Nuestra Señora de la Granada</a></li>
+        <li><a href="#lugar-iglesia-de-santa-maria-magdalena-en-pallares"><span class="termino__num" aria-hidden="true">4</span>Iglesia de Santa María Magdalena, en Pallares</a></li>
+        <li><a href="#lugar-iglesia-de-santa-maria"><span class="termino__num" aria-hidden="true">5</span>Iglesia de Santa María</a></li>
+        <li><a href="#lugar-ermita-de-san-benito"><span class="termino__num" aria-hidden="true">6</span>Ermita de San Benito</a></li>
+        <li><a href="#lugar-paseo-y-monumento-de-martin-alvarez"><span class="termino__num" aria-hidden="true">7</span>Paseo y monumento de Martín Álvarez</a></li>
+        
+      </ol>
+      <h3 class="termino__titulo">Cómo leerlo</h3>
+      <ul class="termino__claves">
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-limite" d="M2 8h28"/></svg>Límite del término municipal (línea discontinua)</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-casco" d="M6 3h20v10H6z"/></svg>El pueblo (área sombreada)</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-carretera" d="M2 8h28"/></svg>Carreteras (línea gruesa): A-66, BA-067, BA-093, BA-094, BA-110, EX-103 y EX-318</li>
+        
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><circle class="termino-punto-clave" cx="16" cy="8" r="6"/></svg>Círculo con número: un lugar de la lista</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-escala" d="M3 10h26M3 6v8M29 6v8"/></svg>Escala: la barra de abajo mide 5 km</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><rect class="termino-marco" x="5" y="1.5" width="22" height="13"/></svg>Recuadro: el pueblo ampliado; su barra mide 250 m</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-guia" d="M6 11L26 5"/><circle class="termino-sitio" cx="6" cy="11" r="2.6"/></svg>Raya fina con un punto: el sitio exacto, cuando el número se ha apartado para que se lea</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-visitas">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-visitas">Para visitar</h2>
+    <ul class="fichas visitas">
+      <li class="ficha visita">
+        <h3 class="ficha__titulo">Castillo almohade</h3>
+        <p class="visita__texto">Los restos consolidados se pueden visitar. Lo más interesante es la mazmorra, el aljibe y la torre del Homenaje, convertida en mirador.</p>
+        <dl class="datos visita__datos"><div><dt>Dirección</dt><dd>Margen occidental del pueblo</dd></div></dl>
+        <p class="visita__nota">El Ayuntamiento no publica horario: pregunte en el 924 510 001 antes de ir.</p>
+        
+        
+      </li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+<section class="seccion" aria-labelledby="t-historia">
+  <div class="contenedor texto-largo">
+    <h2 class="seccion__titulo" id="t-historia">Historia</h2>
+    <p>Montemolín está en la falla de Ossa Morena, que en la época prerromana separaba la Beturia Céltica de la Beturia Túrdula. Hay yacimientos de la Prehistoria a las afueras. De la época romana quedan hallazgos como un capitel corintio de una necrópolis junto al río Viar, que hoy sirve de pila bautismal en la parroquia.</p>
+    <p>Entre los siglos XII y XIII hubo aquí un asentamiento musulmán y una fortaleza almohade. El Ayuntamiento cuenta que el nombre viene de la reconstrucción de la villa tras Las Navas de Tolosa, en 1212: «Mente» por la tierra de sus pobladores y «Molín» por el Miramamolín. Es la explicación del Ayuntamiento, no contrastada.</p>
+    <p>En 1246 el maestre de la Orden de Santiago, Pelay Pérez Correa, tomó la fortaleza tras la batalla de Tentudía. En 1248 el rey Fernando III la dio a la Orden a cambio de Cantillana. Montemolín fue cabecera de las Cinco Villas Hermanas del Maestrazgo, con Fuente de Cantos, Calzadilla, Medina de las Torres y Monesterio.</p>
+    <p>En 1282 Alfonso X le concedió fuero propio por la lealtad de sus vecinos. En 1608 Felipe III vendió las Cinco Villas a unos banqueros genoveses y en 1684 se creó el título de marqués de Montemolín. Más tarde la Corona recompró la jurisdicción y la villa volvió a ser de realengo.</p>
+    <p>Entre 1845 y 1861 el pretendiente carlista Carlos Luis de Borbón tomó el título de conde de Montemolín. En 1833 la villa había quedado en el partido judicial de Llerena; hoy pertenece al de Zafra y a la comarca de Tentudía.</p>
+    
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-patrimonio">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-patrimonio">Patrimonio</h2>
+    <div class="patrimonio-grupos">
+      <div class="patrimonio-grupo">
+        <h3 class="patrimonio-grupo__titulo">Montemolín</h3>
+        <ul class="patrimonio">
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Castillo almohade</b><span class="patrimonio__detalle">Fortaleza de tapial y, desde 1248, de ladrillo y sillería, con la torre del Homenaje y la de Miramontes. La actuación del Proyecto Alba Plata (Junta de Extremadura), a comienzos del siglo XXI, detuvo su deterioro. A su torre semicircular del sur la llaman «el Plato de la Reina».</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Parroquia de la Purísima Concepción</b><span class="patrimonio__detalle">De 70 por 32 metros y 18 de alto. Tiene una portada sur neoclásica con el reloj de la villa y otra occidental renacentista de 1573, gárgolas con los siete pecados capitales y 14 altares con retablos de los siglos XVII y XVIII.</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Ermita de Nuestra Señora de la Granada</b><span class="patrimonio__detalle">Antigua parroquia de Santiago Apóstol, a las faldas del castillo y junto al paseo de Martín Álvarez.</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Ermita de San Blas</b><span class="patrimonio__detalle">Dentro del casco, junto a la calle San Blas. Algunos mapas la llaman ermita de Nuestra Señora de Gracia.</span></li>
+          <li class="patrimonio__fila" id="lugar-ermita-de-san-benito"><b class="patrimonio__nombre">Ermita de San Benito</b><span class="patrimonio__detalle">A las afueras. La web municipal cuenta que sus altares se llevaron a la parroquia cuando se cerró al culto, junto con los de la ermita del Espíritu Santo.</span></li>
+          <li class="patrimonio__fila" id="lugar-paseo-y-monumento-de-martin-alvarez"><b class="patrimonio__nombre">Paseo y monumento de Martín Álvarez</b><span class="patrimonio__detalle">Inaugurado en 1938 junto a la ermita de la Granada, con la estatua del granadero.</span></li>
+          
+        </ul>
+      </div>
+      <div class="patrimonio-grupo">
+        <h3 class="patrimonio-grupo__titulo">Pallares</h3>
+        <ul class="patrimonio">
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Iglesia de Santa María Magdalena, en Pallares</b><span class="patrimonio__detalle">Iglesia de Pallares, con su altar mayor. La plaza del pueblo es la Plaza de España.</span></li>
+          
+        </ul>
+      </div>
+      <div class="patrimonio-grupo">
+        <h3 class="patrimonio-grupo__titulo">Santa María de Nava</h3>
+        <ul class="patrimonio">
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Iglesia de Santa María</b><span class="patrimonio__detalle">Con una torre de ladrillo sobre un muro encalado.</span></li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-anio">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-anio">Fiestas</h2>
+    <ol class="anio" data-vivo="anio"><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Enero</span><span class="mes__corto" aria-hidden="true">ene</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Febrero</span><span class="mes__corto" aria-hidden="true">feb</span></p><ul class="mes__fiestas"><li><b>San Blas y las Candelas</b><span>2 y 3 de febrero. El 3 es fiesta local</span></li><li><b>Carnaval</b><span>Febrero o marzo</span></li></ul></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Marzo</span><span class="mes__corto" aria-hidden="true">mar</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Abril</span><span class="mes__corto" aria-hidden="true">abr</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Mayo</span><span class="mes__corto" aria-hidden="true">may</span></p><ul class="mes__fiestas"><li><b>San Isidro Labrador</b><span>15 de mayo, fiesta local</span></li></ul></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Junio</span><span class="mes__corto" aria-hidden="true">jun</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Julio</span><span class="mes__corto" aria-hidden="true">jul</span></p><ul class="mes__fiestas"><li><b>Santa María Magdalena, en Pallares</b><span>22 de julio</span></li><li><b>Fiestas patronales de Santiago Apóstol</b> <span class="chip chip--mayor">Fiesta mayor</span><span>En torno al 25 de julio</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Agosto</span><span class="mes__corto" aria-hidden="true">ago</span></p><ul class="mes__fiestas"><li><b>Fiesta del Guarrito</b><span>Primera semana de agosto (en 2026, el 7 y el 8; fue la XXII edición)</span></li><li><b>Fiesta del Emigrante, en Pallares</b><span>Mediados de agosto (en 2026, del 10 al 12)</span></li><li><b>Fiestas patronales de Santa María de Nava</b><span>Finales de agosto (en 2026, del 25 al 28)</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Septiembre</span><span class="mes__corto" aria-hidden="true">sep</span></p><ul class="mes__fiestas"><li><b>Fiestas patronales de Pallares</b><span>Principios de septiembre. El 4 de septiembre es fiesta local de Pallares</span></li></ul></li><li class="mes es-vacio es-mes-actual"><p class="mes__nombre"><span class="mes__largo">Octubre</span><span class="mes__corto" aria-hidden="true">oct</span> <span class="mes__ahora">Este mes</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas.</span></p><p class="mes__siguiente">Lo siguiente: <b>Encantos navideños</b>, diciembre</p></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Noviembre</span><span class="mes__corto" aria-hidden="true">nov</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Diciembre</span><span class="mes__corto" aria-hidden="true">dic</span></p><ul class="mes__fiestas"><li><b>Encantos navideños</b><span>Diciembre, en la Plaza de la Constitución (en 2025, el 20 y el 27 a las 19:00)</span></li></ul></li></ol>
+  </div>
+</section>
+
+
+
+<section class="seccion" aria-labelledby="t-personajes">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-personajes">Personajes</h2>
+    <ul class="fichas">
+      <li class="ficha"><h3 class="ficha__titulo">Martín Álvarez y Galán</h3><p class="ficha__fechas">1766-1801</p><p>Infante de Marina, héroe de la batalla del cabo de San Vicente (14 de febrero de 1797). Herido, siguió defendiendo la bandera del navío «San Nicolás de Bari». Un buque de la Armada llevará su nombre.</p></li>
+      <li class="ficha"><h3 class="ficha__titulo">Casiodoro de Reina</h3><p class="ficha__fechas">h. 1520-1594</p><p>Monje jerónimo nacido en Montemolín que se exilió por sus ideas protestantes. Imprimió en Basilea, en 1569, la primera Biblia completa en castellano traducida del hebreo y del griego: la «Biblia del Oso».</p></li>
+      <li class="ficha"><h3 class="ficha__titulo">Carlos Luis de Borbón y Braganza</h3><p class="ficha__fechas">conde de Montemolín de 1845 a 1861</p><p>Pretendiente carlista al trono con el nombre de Carlos VI. No nació aquí: su título de conde viene de la villa.</p></li>
+      
+    </ul>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-rutas">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-rutas">Rutas</h2>
+    <ul class="rutas">
+      <li class="ruta"><h3 class="ruta__nombre">Red de Ciudades en la Ruta de la Plata</h3><p>Montemolín está adscrito a esta red desde el 15 de diciembre de 2011.</p><p><a href="https://rutadelaplata.com/">Ver la ruta<span class="sr">: Red de Ciudades en la Ruta de la Plata</span></a></p></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+<section class="seccion" id="creditos" aria-labelledby="t-creditos">
+  <div class="contenedor texto-largo">
+    <h2 class="seccion__titulo" id="t-creditos">Créditos de las fotos</h2>
+    <ul class="creditos">
+      <li><b>Ermita de Nuestra Señora de la Granada</b>: Ayuntamiento de Montemolín (web municipal), Sin licencia declarada: solo para esta maqueta (<a href="https://montemolin.es/galeria.php?album=1">ficha de la foto</a>). Foto de galeria/20140221125856.jpg de la web municipal («Ermita de la Granada»).</li>
+      <li><b>Vista general de Montemolín</b>: Ayuntamiento de Montemolín (web municipal), Sin licencia declarada: solo para esta maqueta (<a href="https://montemolin.es/galeria.php?album=1">ficha de la foto</a>). Foto de galeria/20140220102608.jpg de la web municipal («Vista general Montemolín»).</li>
+      <li><b>Castillo de Montemolín</b>: Ayuntamiento de Montemolín (web municipal), Sin licencia declarada: solo para esta maqueta (<a href="https://montemolin.es/galeria.php?album=1">ficha de la foto</a>). Foto de galeria/20140326124933.jpg de la web municipal («Castillo Montemolín»).</li>
+      <li><b>Iglesia parroquial de la Purísima Concepción</b>: Adolfobrigido, CC BY-SA 4.0 (<a href="https://commons.wikimedia.org/wiki/File:BA-Montemol%C3%ADn-Iglesia_parroquial.jpg">ficha de la foto</a>). Subida a Commons el 13-01-2017.</li>
+      <li><b>Ermita de San Blas</b>: Ayuntamiento de Montemolín (web municipal), Sin licencia declarada: solo para esta maqueta (<a href="https://montemolin.es/galeria.php?album=1">ficha de la foto</a>). Foto de galeria/20140326124753.jpg de la web municipal («Ermita de San Blas»).</li>
+      <li><b>Iglesia de Santa María Magdalena de Pallares</b>: Ayuntamiento de Montemolín (web municipal), Sin licencia declarada: solo para esta maqueta (<a href="https://montemolin.es/galeria.php?album=4">ficha de la foto</a>). Foto de galeria/20140326124700.jpg de la web municipal.</li>
+      <li><b>Santa María de Nava, vista desde lo alto</b>: Ayuntamiento de Montemolín (web municipal), Sin licencia declarada: solo para esta maqueta (<a href="https://montemolin.es/galeria.php?album=3">ficha de la foto</a>). Foto de galeria/20140328134225.jpg de la web municipal.</li>
+      
+    </ul>
+  </div>
+</section>
+  </div>
+</div>
+</main>
+<footer class="pie">
+  <div class="pie__perfil" data-perfil="generico"><svg class="pie__perfil-dibujo" viewBox="0 0 1600 180" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path pathLength="1" class="lejos" d="M-4 116L120 110L260 101L380 106L520 96L640 90L722.2 92.7"/><path pathLength="1" class="lejos" d="M766 93.7L900 88L1040 96L1180 92L1320 102L1460 108L1604 114"/><path pathLength="1" d="M-4 146L-4 130L23 117L50 130L50 125L79 112L108 125L108 130L126.5 120.4L145 130L145 125L145 125L197 125L197 125L197 113.3L248 122L248 127.5"/><path pathLength="1" d="M253 132L285.5 132L288 137L288 133L313 120L338 133L338 129L357.5 118.9L377 129L377 116.3L428 125L428 134L460.5 121L487.5 131.8"/><path pathLength="1" d="M493 132.5L493 131.5L522.8 136.6"/><path pathLength="1" d="M539.3 130.4L539.5 130L541 130"/><path pathLength="1" d="M545 130L583 130L583 123L581.5 123L581.5 120.5L590.5 120.5L590.5 123L589 123L589 130L607.5 130L610 135L610 128L650 115L690 128L690 136"/><path pathLength="1" d="M50 140L50 130"/><path pathLength="1" d="M108 143L108 130"/><path pathLength="1" d="M145 143L145 130"/><path pathLength="1" d="M197 146L197 125"/><path pathLength="1" d="M288 140.5L288 137"/><path pathLength="1" d="M338 143L338 133"/><path pathLength="1" d="M377 150L377 129"/><path pathLength="1" d="M428 141.5L428 134"/><path pathLength="1" d="M610 143L610 135"/><path pathLength="1" d="M145 128L197 128"/><path pathLength="1" d="M253 137L288 137"/><path pathLength="1" d="M558.5 135L610 135"/><path pathLength="1" d="M930.4 138.8L953 127L976 139L976 131L978.5 125L1045.5 125L1048 131L1048 122L1079 109L1110 122L1110 134"/><path pathLength="1" d="M1126 134L1126 132L1124.5 132L1124.5 129.5L1133.5 129.5L1133.5 132L1132 132L1132 134"/><path pathLength="1" d="M1173 133L1173 123L1182.3 124.6"/><path pathLength="1" d="M1191.6 126.2L1220 131L1220 114L1280 124L1280 136L1282.5 130L1303 130L1303 123L1301.5 123L1301.5 120.5L1310.5 120.5L1310.5 123L1309 123L1309 130L1351.5 130L1352.5 132.3"/><path pathLength="1" d="M1354 132L1354 127L1356.5 122L1421.5 122L1424 127L1424 138L1426.5 131L1437 131"/><path pathLength="1" d="M1447 131L1464.5 131L1467 138L1467 129L1469.5 123L1500.5 123L1503 129L1503 135"/><path pathLength="1" d="M1508.3 134.2L1526.5 124.8L1536.7 130.1"/><path pathLength="1" d="M1551.8 128.1L1577 116L1604 129L1604 151"/><path pathLength="1" d="M976 146L976 139"/><path pathLength="1" d="M1048 134.5L1048 131"/><path pathLength="1" d="M1220 134.5L1220 131"/><path pathLength="1" d="M1280 138L1280 136"/><path pathLength="1" d="M976 131L1048 131"/><path pathLength="1" d="M1280 136L1318 136"/><path pathLength="1" d="M1354 127L1424 127"/><path pathLength="1" d="M1424 138L1437 138"/><path pathLength="1" d="M1447 138L1467 138"/><path pathLength="1" d="M1467 129L1503 129"/><path pathLength="1" d="M782 180L782 126L801.2 114L910.8 114L930 126L930 156"/><path pathLength="1" d="M782 126L930 126"/><path pathLength="1" d="M706 180L706 106L782 106L782 180"/><path pathLength="1" d="M706 110L782 110"/><path pathLength="1" d="M750 130A6 6 0 0 1 738 130A6 6 0 0 1 750 130"/><path pathLength="1" d="M736.5 180L736.5 157.5A7.5 7.5 0 0 1 751.5 157.5L751.5 180L736.5 180"/><path pathLength="1" d="M724 106L724 68L722.5 68L744 50L765.5 68L764 68L764 106"/><path pathLength="1" d="M737.5 94L737.5 80.5A6.5 6.5 0 0 1 750.5 80.5L750.5 94L737.5 94"/><path pathLength="1" d="M740.6 92.5L741.6 83.7A2.4 2.4 0 0 1 746.4 83.7L747.4 92.5L740.6 92.5"/><path pathLength="1" d="M744 50L744 39"/><path pathLength="1" d="M741.4 42.5L746.6 42.5"/><path pathLength="1" d="M-4 180L-4 146L-1.5 140L44.5 140L47 146L47 140L47 140L96 140L96 140L96 148L98.5 143L162.5 143L165 148L165 152L167.5 146L227.5 146L230 152L230 143L232.5 137L245 137L245 130L243.5 130L243.5 127.5L252.5 127.5L252.5 130L251 130L251 137L286.5 137L289 143L289 151L324.5 138L360 151L360 155L362.5 150L382 150L382 143L380.5 143L380.5 140.5L389.5 140.5L389.5 143L388 143L388 150L424.5 150L427 155L427 144L429.5 138L467.5 138L470 144L470 128.5L508 135L508 142L543 129L578 142L578 149L580.5 143L616.5 143L619 149L619 142L621.5 135L662.5 135L665 142L665 136L677.5 129.5L690 136L690 180"/><path pathLength="1" d="M47 180L47 146"/><path pathLength="1" d="M96 180L96 148"/><path pathLength="1" d="M165 180L165 152"/><path pathLength="1" d="M230 180L230 152"/><path pathLength="1" d="M289 180L289 151"/><path pathLength="1" d="M360 180L360 155"/><path pathLength="1" d="M427 180L427 155"/><path pathLength="1" d="M470 180L470 144"/><path pathLength="1" d="M508 180L508 142"/><path pathLength="1" d="M578 180L578 149"/><path pathLength="1" d="M619 180L619 149"/><path pathLength="1" d="M665 180L665 142"/><path pathLength="1" d="M-4 146L47 146"/><path pathLength="1" d="M47 143L96 143"/><path pathLength="1" d="M96 148L165 148"/><path pathLength="1" d="M113.3 180L113.3 167L120.3 167L120.3 180"/><path pathLength="1" d="M145.3 163L145.3 154L150.3 154L150.3 163L145.3 163"/><path pathLength="1" d="M165 152L230 152"/><path pathLength="1" d="M178.8 167L178.8 158L183.8 158L183.8 167L178.8 167"/><path pathLength="1" d="M230 143L289 143"/><path pathLength="1" d="M242.3 158L242.3 149L247.3 149L247.3 158L242.3 158"/><path pathLength="1" d="M271.8 158L271.8 149L276.8 149L276.8 158L271.8 158"/><path pathLength="1" d="M360 155L427 155"/><path pathLength="1" d="M374.3 170L374.3 161L379.3 161L379.3 170L374.3 170"/><path pathLength="1" d="M407.8 170L407.8 161L412.8 161L412.8 170L407.8 170"/><path pathLength="1" d="M427 144L470 144"/><path pathLength="1" d="M451.2 180L451.2 167L458.2 167L458.2 180"/><path pathLength="1" d="M486.5 150L486.5 141L491.5 141L491.5 150L486.5 150"/><path pathLength="1" d="M578 149L619 149"/><path pathLength="1" d="M588.8 180L588.8 167L595.8 167L595.8 180"/><path pathLength="1" d="M619 142L665 142"/><path pathLength="1" d="M675 151L675 142L680 142L680 151L675 151"/><path pathLength="1" d="M800 180L800 161L802.5 156L815 156L815 149L813.5 149L813.5 146.5L822.5 146.5L822.5 149L821 149L821 156L856.5 156L859 161L859 153L859 153L901 153L901 153L901 161L960 151L960 180"/><path pathLength="1" d="M859 180L859 161"/><path pathLength="1" d="M901 180L901 161"/><path pathLength="1" d="M800 161L859 161"/><path pathLength="1" d="M859 156L901 156"/><path pathLength="1" d="M877.5 168L877.5 159L882.5 159L882.5 168L877.5 168"/><path pathLength="1" d="M960 180L960 154L979 144.1L998 154L998 149L1000.5 142L1041.5 142L1044 149L1044 135L1098 125.8L1098 140L1100.5 134L1129.5 134L1132 140L1132 134L1132 134L1150 134L1150 127L1148.5 127L1148.5 124.5L1157.5 124.5L1157.5 127L1156 127L1156 134L1169 134L1169 134L1169 140L1171.5 133L1184 133L1184 126L1182.5 126L1182.5 123.5L1191.5 123.5L1191.5 126L1190 126L1190 133L1219.5 133L1222 140L1222 136L1222 136L1237 136L1237 129L1235.5 129L1235.5 126.5L1244.5 126.5L1244.5 129L1243 129L1243 136L1274 136L1274 136L1274 143L1276.5 138L1314.5 138L1317 143L1317 139L1319.5 132L1356.5 132L1359 139L1359 148L1390.5 135L1422 148L1422 139L1422 139L1439 139L1439 132L1437.5 132L1437.5 129.5L1446.5 129.5L1446.5 132L1445 132L1445 139L1494 139L1494 139L1494 136L1565 126L1565 151L1567.5 144L1601.5 144L1604 151L1604 180"/><path pathLength="1" d="M998 180L998 154"/><path pathLength="1" d="M1044 180L1044 149"/><path pathLength="1" d="M1098 180L1098 140"/><path pathLength="1" d="M1132 180L1132 140"/><path pathLength="1" d="M1169 180L1169 140"/><path pathLength="1" d="M1222 180L1222 140"/><path pathLength="1" d="M1274 180L1274 143"/><path pathLength="1" d="M1317 180L1317 143"/><path pathLength="1" d="M1359 180L1359 148"/><path pathLength="1" d="M1422 180L1422 148"/><path pathLength="1" d="M1494 180L1494 139"/><path pathLength="1" d="M1565 180L1565 151"/><path pathLength="1" d="M998 149L1044 149"/><path pathLength="1" d="M1026.9 180L1026.9 167L1033.9 167L1033.9 180"/><path pathLength="1" d="M1018.5 164L1018.5 155L1023.5 155L1023.5 164L1018.5 164"/><path pathLength="1" d="M1055 150L1055 141L1060 141L1060 150L1055 150"/><path pathLength="1" d="M1082 150L1082 141L1087 141L1087 150L1082 150"/><path pathLength="1" d="M1055 167L1055 158L1060 158L1060 167L1055 167"/><path pathLength="1" d="M1082 167L1082 158L1087 158L1087 167L1082 167"/><path pathLength="1" d="M1098 140L1132 140"/><path pathLength="1" d="M1132 137L1169 137"/><path pathLength="1" d="M1148 149L1148 140L1153 140L1153 149L1148 149"/><path pathLength="1" d="M1148 166L1148 157L1153 157L1153 166L1148 166"/><path pathLength="1" d="M1169 140L1222 140"/><path pathLength="1" d="M1179.8 155L1179.8 146L1184.8 146L1184.8 155L1179.8 155"/><path pathLength="1" d="M1179.8 172L1179.8 163L1184.8 163L1184.8 172L1179.8 172"/><path pathLength="1" d="M1206.3 172L1206.3 163L1211.3 163L1211.3 172L1206.3 172"/><path pathLength="1" d="M1222 139L1274 139"/><path pathLength="1" d="M1232.5 151L1232.5 142L1237.5 142L1237.5 151L1232.5 151"/><path pathLength="1" d="M1258.5 151L1258.5 142L1263.5 142L1263.5 151L1258.5 151"/><path pathLength="1" d="M1232.5 168L1232.5 159L1237.5 159L1237.5 168L1232.5 168"/><path pathLength="1" d="M1258.5 168L1258.5 159L1263.5 159L1263.5 168L1258.5 168"/><path pathLength="1" d="M1274 143L1317 143"/><path pathLength="1" d="M1283.6 180L1283.6 167L1290.6 167L1290.6 180"/><path pathLength="1" d="M1317 139L1359 139"/><path pathLength="1" d="M1422 142L1494 142"/><path pathLength="1" d="M1509.3 151L1509.3 142L1514.3 142L1514.3 151L1509.3 151"/><path pathLength="1" d="M1544.8 151L1544.8 142L1549.8 142L1549.8 151L1544.8 151"/><path pathLength="1" d="M1509.3 168L1509.3 159L1514.3 159L1514.3 168L1509.3 168"/><path pathLength="1" d="M1543.8 180L1543.8 166L1550.8 166L1550.8 180"/><path pathLength="1" d="M1565 151L1604 151"/><path pathLength="1" d="M1589.3 180L1589.3 167L1596.3 167L1596.3 180"/></svg></div>
+  <section class="sede-franja" aria-labelledby="t-sede">
+    <div class="contenedor">
+      <h2 class="sede-franja__titulo" id="t-sede">Sede electrónica e información pública</h2>
+      <ul class="sede-franja__lista">
+        <li><a class="sede-franja__enlace" href="https://sede.montemolin.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg><span><b>Sede electrónica</b><span>Trámites con certificado o Cl@ve</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://montemolin.es/tablon.php"><svg class="icono" aria-hidden="true"><use href="#i-tablon"/></svg><span><b>Tablón de anuncios</b><span>Edictos y anuncios oficiales</span></span></a></li>
+        <!-- v3c · transparencia: a la página que explica cada apartado y lleva al portal (lo haya o no) -->
+        <li><a class="sede-franja__enlace" href="transparencia.html"><svg class="icono" aria-hidden="true"><use href="#i-ojo"/></svg><span><b>Transparencia</b><span>Cuentas, contratos y acuerdos</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://contrataciondelestado.es/wps/portal/perfilContratante"><svg class="icono" aria-hidden="true"><use href="#i-contrato"/></svg><span><b>Perfil del contratante</b><span>Licitaciones del Ayuntamiento</span></span></a></li>
+      </ul>
+      <p class="sede-franja__nota">«Transparencia» le explica en esta web qué se publica y dónde; los demás enlaces le llevan a la sede electrónica o a la Plataforma de Contratación del Sector Público.</p>
+    </div>
+  </section>
+  <div class="pie__cuerpo">
+    <div class="contenedor pie__rejilla pie__rejilla--plano">
+      <div class="pie__col pie__id">
+        <img class="pie__escudo" src="marca/escudo-160.png" width="92" height="160" alt="">
+        <div>
+          <h2 class="pie__nombre">Ayuntamiento de Montemolín</h2>
+          <p>Plaza de la Constitución, 1<br>06291 Montemolín (Badajoz)</p>
+          <p><span class="pie__etiqueta">Teléfono</span> <a href="tel:+34924510001">924 510 001</a></p>
+          <p><span class="pie__etiqueta">Correo</span> <a class="rompe" href="mailto:ayuntamiento@montemolin.es">ayuntamiento@montemolin.es</a></p>
+          <p><span class="pie__etiqueta">Horario</span> Lunes a viernes, de 8:00 a 14:00</p>
+        </div>
+      </div>
+      <nav class="pie__col pie__enlaces" aria-labelledby="t-pie-enlaces">
+        <h2 class="pie__titulo" id="t-pie-enlaces">Enlaces útiles</h2>
+        <ul class="pie__lista">
+          <li><a href="https://sede.montemolin.es">Sede electrónica<span class="sr">, se abre la sede electrónica</span></a></li>
+          <li><a href="https://montemolin.es/tablon.php">Tablón de anuncios<span class="sr">, se abre otra web</span></a></li>
+          <li><a href="transparencia.html">Transparencia</a></li>
+          <li><a href="https://contrataciondelestado.es/wps/portal/perfilContratante">Perfil del contratante<span class="sr">, se abre otra web</span></a></li>
+          <li><a href="tramites.html">Trámites</a></li>
+          <li><a href="telefonos.html">Teléfonos</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="accesibilidad.html">Accesibilidad</a></li>
+          
+        </ul>
+        
+      </nav>
+      <div class="pie__col pie__plano">
+        <h2 class="pie__titulo" id="t-pie-plano">Cómo llegar</h2>
+        <figure class="pie__plano-figura">
+          <a class="pie__plano-enlace" href="contacto.html#t-donde"><svg class="pie__plano-dibujo" viewBox="0 0 320 240" aria-hidden="true" focusable="false"><rect class="plano-fondo" width="320" height="240"/><path class="plano-plaza" d="M151.4 80.1L153.8 92.5L153.2 107.7L163.5 106.3L183.4 109.5L184.8 100.9L164.3 98.2L166.2 80L151.4 80.1Z"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.000" d="M163.5 106.3L166.2 80"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.000" d="M163.5 106.3L152.2 107.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.000" d="M163.5 106.3L185.3 109.8L212.1 120.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.002" d="M152.2 107.8L145.4 159.7L144.3 174.1L141.5 183.5L142.2 189.4L144.9 195L148.9 198.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.002" d="M152.2 107.8L126 104.3L91.8 101.8L72.5 98.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.082" d="M183.4 109.5L188.1 75.1L188.5 63.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.187" d="M166.2 80L136.6 80.6L105.1 77.9L77.6 72.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.187" d="M166.2 80L170.1 57.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.269" d="M214.2 118.1L212.1 120.4L187.4 168.4L179.1 185.3L170.2 206.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.284" d="M214.2 118.1L245.3 116.8L259.2 120.6"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.348" d="M170.1 57.5L188.5 63.5L219.5 75.5L250.5 88.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.348" d="M170.1 57.5L99.9 43.5L-2 15.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.350" d="M167.7 57L172.7 35.2L175 9.6L177.4 2.8L181.7 -1.3L183.9 -2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.463" d="M148.9 198.7L145.5 212.1L139.6 219.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.463" d="M148.9 198.7L170.2 206.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.466" d="M227.9 162.2L280.9 187.5L322 199.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.466" d="M259.2 120.6L252.9 124.9L246.5 133.4L227.9 162.2L211.3 193.3L199.7 219.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.499" d="M139.6 219.5L130.9 213.3L111.4 195.1L99.9 182.1L87.5 163.4L63.3 134.9L48.1 122L38.1 115L30.6 111.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.519" d="M170.2 206.8L199.7 219.4L222.1 225.9L258.2 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.538" d="M72.5 98.8L37.7 99.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.538" d="M72.5 98.8L76.5 76.3L80.5 60"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.568" d="M76.5 76.3L38.7 71L27.3 67.5L13.3 61.4L-2 51.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.578" d="M250.5 88.9L322 126.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.578" d="M250.5 88.9L257.2 77.3L268.5 61.9L281.3 47L287.8 42.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.603" d="M259.2 120.6L269.5 113.8L280.4 104.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.606" d="M80.5 60L86.6 39.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.620" d="M139.6 219.5L146.3 224.1L149.2 227.8L155.3 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.620" d="M139.6 219.5L122.4 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.680" d="M203.9 221L198.4 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.779" d="M37.7 99.5L19.5 95.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.819" d="M30.6 111.8L15.4 108.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.849" d="M28 97.6L23.7 110.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.910" d="M19.5 95.9L-2 84.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.928" d="M15.4 108.4L-2 110.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 1.000" d="M64 242L55.3 238.5L38.8 234.7L9.9 231.6"/><path class="plano-hito" d="M170.1 57.5L166.7 75.4L164.3 98.2L184.8 100.9L188.1 75.1L188.5 63.5L170.1 57.5ZM11.5 235.9L11.2 243.2L28.8 243.7L29 236.4L11.5 235.9Z"/><path class="plano-ayto" d="M149.9 125.7L169.1 126.8L169.5 113.3L151.4 114.1L149.9 125.7Z"/><path class="plano-escala" d="M10 228h80M10 225v6M90 225v6"/><text class="plano-rotulo plano-rotulo--escala" x="94" y="228" dy=".35em">100 m</text><text class="plano-rotulo" x="84.1" y="36.5" transform="rotate(13.8 84.1 36.5)" text-anchor="middle" dy=".35em">C/ Corredera Baja</text><text class="plano-rotulo" x="85.1" y="165.7" transform="rotate(44.6 85.1 165.7)" text-anchor="middle" dy=".35em">C/ Pizarra</text><text class="plano-rotulo" x="274.9" y="180.8" transform="rotate(21.5 274.9 180.8)" text-anchor="middle" dy=".35em">C/ Ranchuelo</text><text class="plano-rotulo plano-rotulo--ayto" x="173.5" y="120" text-anchor="start" dy=".35em">Ayuntamiento</text></svg><span class="sr">Plano de las calles alrededor del Ayuntamiento: ver la dirección y el mapa en Contacto</span></a>
+          <figcaption class="pie__plano-pie">El Ayuntamiento, en Plaza de la Constitución, 1. En el plano: Calle Corredera Baja, Calle Pizarra y Calle Ranchuelo. Datos del plano: <a href="https://www.openstreetmap.org/copyright">© colaboradores de OpenStreetMap<span class="sr">, se abre otra web</span></a>.</figcaption>
+        </figure>
+        <a class="pie__llegar ver-todo" href="contacto.html#t-donde">Dirección, horario y mapa<svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+      </div>
+      <div class="pie__canal">
+        <p class="pie__canal-titulo"><svg class="icono" aria-hidden="true"><use href="#i-movil"/></svg>Avisos en el móvil</p>
+        <p>Reciba los avisos del Ayuntamiento en <a href="https://www.facebook.com/upmontemolin">Univ Pop Montemolín, en Facebook<span class="sr">, se abre otra web</span></a> · <a href="avisos.html#t-canal">Cómo apuntarse</a></p>
+      </div>
+    </div>
+    <div class="contenedor pie__base">
+      <nav class="pie__legal" aria-label="Información legal">
+        <ul>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="accesibilidad.html">Declaración de accesibilidad</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- v3c · guia: la página para quien publica, fuera del menú (noindex siempre) -->
+      <p class="pie__personal"><a href="publicar.html">Personal del Ayuntamiento: publicar</a></p>
+      <p class="pie__creditos">Escudo: Erlenmeyer, CC BY-SA 4.0 (<a href="https://commons.wikimedia.org/wiki/File:Escudo_de_Montemol%C3%ADn_(Badajoz).svg">Wikimedia Commons</a>). Las fotos llevan su autor y licencia en <a href="pueblo.html#creditos">El pueblo</a>.</p>
+      <p class="pie__actualizada">Web actualizada el <time datetime="2026-10-05T16:27+02:00">5 de octubre de 2026 a las 16:27</time>.</p>
+      <p class="pie__propuesta" data-propuesta>Propuesta de diseño para el Ayuntamiento de Montemolín · no es la web oficial.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="cookies" id="cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="cookies__texto">
+    <p>Esta web no usa cookies. <a href="cookies.html">Más información</a></p>
+    <!-- [MANDO DE MAQUETA] inicio -->
+    <p class="cookies__revision">Durante la revisión de la propuesta también guarda la versión y el color que se estén probando.</p>
+    <!-- [MANDO DE MAQUETA] fin -->
+  </div>
+  <button class="boton boton--marca" type="button" data-aceptar-cookies>Entendido</button>
+</div>
+
+<!-- [MANDO DE MAQUETA] inicio -->
+<!-- Mando de la reunión: solo con ?revision. NUNCA viaja al sitio del Ayuntamiento:
+     python scripts/quitar_mandos.py lo borra (README, «Antes de entregar»). -->
+<div class="mando" id="mando" role="region" aria-label="Versiones de la propuesta" hidden>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-version">
+    <p class="mando__titulo" id="mando-version">Versión</p>
+    <button type="button" class="mando__boton" data-densidad="puerta" aria-pressed="true">Puerta abierta</button>
+    <button type="button" class="mando__boton" data-densidad="sobria" aria-pressed="false">Sobria</button>
+  </div>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-color">
+    <p class="mando__titulo" id="mando-color">Color</p>
+    <button type="button" class="mando__boton" data-paleta="a" aria-pressed="true"><span class="mando__muestra mando__muestra--a" aria-hidden="true"></span>Sinople</button>
+    <button type="button" class="mando__boton" data-paleta="b" aria-pressed="false"><span class="mando__muestra mando__muestra--b" aria-hidden="true"></span>Azur</button>
+    <button type="button" class="mando__boton" data-paleta="c" aria-pressed="false"><span class="mando__muestra mando__muestra--c" aria-hidden="true"></span>Almagre</button>
+    
+  </div>
+</div>
+<!-- [MANDO DE MAQUETA] fin -->
+
+<script type="application/json" id="datos-vivos">{"slug":"montemolin","nombre":"Montemolín","nombre_corto":"Montemolín","zona":"Europe/Madrid","horario":{"texto":"Lunes a viernes, de 8:00 a 14:00","tramos":[{"dias":[1,2,3,4,5],"de":"08:00","a":"14:00"}],"ejemplo":false},"avisos":[{"id":"itv-movil-2026-10","fecha":"2026-09-25","tema":"Servicios","titulo":"ITV móvil en Montemolín: 13 y 14 de octubre, en el polideportivo","texto":"La unidad móvil de la ITV estará en Montemolín los días 13 y 14 de octubre de 2026, en el polideportivo. El horario y cómo pedir cita figuran en el bando del Ayuntamiento.","enlace":"https://www.facebook.com/upmontemolin","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false}],"agenda":[{"id":"itv-movil-2026-10-13","fecha":"2026-10-13","hora":null,"hora_fin":null,"titulo":"ITV móvil en Montemolín","lugar":"Polideportivo","nota":"También el día 14. Horario y cita: el bando del Ayuntamiento.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/itv-movil-2026-10-13.ics"},{"id":"iae-2026-fin-plazo","fecha":"2026-11-16","hora":null,"hora_fin":null,"titulo":"Último día para pagar el IAE de 2026 sin recargo","lugar":null,"nota":"El pago voluntario empezó el 15 de septiembre. Se paga con tarjeta o Bizum en la web del OAR, en el banco o en Correos.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/iae-2026-fin-plazo.ics"},{"id":"teatro-llevame-pal-pueblo","fecha":"2026-09-19","hora":"21:45","hora_fin":null,"titulo":"Teatro: «Llévame p’al pueblo»","lugar":"Corrala de Comedias","nota":"Comedia de Lupe Osuna, de EXTEATRO Artes Escénicas. La función se retrasó 15 minutos.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/teatro-llevame-pal-pueblo.ics"},{"id":"taller-regalate-un-rato-2","fecha":"2026-09-15","hora":"11:30","hora_fin":null,"titulo":"Taller «Regálate un rato para ti» (2.ª parte)","lugar":"Sala de Usos Múltiples de la Universidad Popular","nota":"Gratuito y abierto a personas adultas del municipio. Proyecto Red Arraigo (Asociación Anthea).","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/taller-regalate-un-rato-2.ics"},{"id":"teatro-tarot-y-tentempie","fecha":"2026-09-11","hora":"21:30","hora_fin":null,"titulo":"Teatro: «Tarot y tentempié»","lugar":"Corrala de Comedias","nota":"Comedia de Francis Lucas, de Verbo Producciones.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/teatro-tarot-y-tentempie.ics"},{"id":"fiesta-san-blas-y-las-candelas-2026","fecha":"2026-02-03","titulo":"San Blas y las Candelas","lugar":"2 y 3 de febrero. El 3 es fiesta local","origen":"fiesta","ics":"ics/fiesta-san-blas-y-las-candelas-2026.ics"},{"id":"fiesta-san-blas-y-las-candelas-2027","fecha":"2027-02-03","titulo":"San Blas y las Candelas","lugar":"2 y 3 de febrero. El 3 es fiesta local","origen":"fiesta","ics":"ics/fiesta-san-blas-y-las-candelas-2027.ics"},{"id":"fiesta-san-isidro-labrador-2026","fecha":"2026-05-15","titulo":"San Isidro Labrador","lugar":"15 de mayo, fiesta local","origen":"fiesta","ics":"ics/fiesta-san-isidro-labrador-2026.ics"},{"id":"fiesta-san-isidro-labrador-2027","fecha":"2027-05-15","titulo":"San Isidro Labrador","lugar":"15 de mayo, fiesta local","origen":"fiesta","ics":"ics/fiesta-san-isidro-labrador-2027.ics"},{"id":"fiesta-santa-maria-magdalena-en-pallares-2026","fecha":"2026-07-22","titulo":"Santa María Magdalena, en Pallares","lugar":null,"origen":"fiesta","ics":"ics/fiesta-santa-maria-magdalena-en-pallares-2026.ics"},{"id":"fiesta-santa-maria-magdalena-en-pallares-2027","fecha":"2027-07-22","titulo":"Santa María Magdalena, en Pallares","lugar":null,"origen":"fiesta","ics":"ics/fiesta-santa-maria-magdalena-en-pallares-2027.ics"},{"id":"fiesta-fiestas-patronales-de-santiago-apostol-2026","fecha":"2026-07-25","titulo":"Fiestas patronales de Santiago Apóstol","lugar":"En torno al 25 de julio","origen":"fiesta","ics":"ics/fiesta-fiestas-patronales-de-santiago-apostol-2026.ics"},{"id":"fiesta-fiestas-patronales-de-santiago-apostol-2027","fecha":"2027-07-25","titulo":"Fiestas patronales de Santiago Apóstol","lugar":"En torno al 25 de julio","origen":"fiesta","ics":"ics/fiesta-fiestas-patronales-de-santiago-apostol-2027.ics"}],"farmacias":{"lista":[],"cambio":"09:30","guardias":[],"rotacion":null,"oficial":{"nombre":"Colegio Oficial de Farmacéuticos de Badajoz","url":"https://cofbadajoz.com/farmacias-de-guardia/"},"ejemplo":false},"tiempo":{"url":"https://www.aemet.es/es/eltiempo/prediccion/municipios/montemolin-id06086","lugar":"Montemolín"},"recogida":[],"canal":{"nombre":"Univ Pop Montemolín, en Facebook","url":"https://www.facebook.com/upmontemolin","pasos":["Abra Facebook y busque «Univ Pop Montemolín».","Pulse «Seguir»: ahí salen los bandos, los avisos y las actividades."]},"web":"https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/","noticias":[{"id":"itv-movil-octubre-2026","fecha":"2026-09-25","titulo":"La ITV móvil estará en Montemolín el 13 y el 14 de octubre","resumen":"En el polideportivo. Horario y cita, en el bando del Ayuntamiento.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"plan-empleo-2026-2027","fecha":"2026-09-18","titulo":"Plan de Empleo Provincial 2026-2027: 48.546 euros para contratar a personas en paro","resumen":"Las primeras plazas, de monitor deportivo y de mantenimiento, tuvieron plazo hasta el 25 de septiembre.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"iae-2026-pago-voluntario","fecha":"2026-09-15","titulo":"Pago voluntario del IAE de 2026: del 15 de septiembre al 16 de noviembre","resumen":"Se paga con tarjeta o Bizum en la web del OAR, en el banco o en Correos.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"martin-alvarez-buque-armada","fecha":"2026-09-04","titulo":"Un buque de la Armada llevará el nombre de Martín Álvarez, el granadero de Montemolín","resumen":"El Ayuntamiento lo celebra como una gran noticia para el pueblo.","imagen":"ermita-granada","imagen_alt":"Muro de piedra de la ermita de la Granada, junto a la que está el paseo con la estatua de Martín Álvarez","ejemplo":false},{"id":"plan-empleo-2025-2026-balance","fecha":"2026-03-16","titulo":"Plan de Empleo Provincial 2025-2026: 44.537,80 euros y siete contrataciones","resumen":"Auxiliar de cocina, limpieza, mantenimiento, monitor deportivo y auxiliar de oficinas.","imagen":null,"imagen_alt":"","ejemplo":false}],"tablon":{"actualizado":"2026-10-05T12:00:00.000Z","entradas":[{"fecha":"2026-09-18","tema":"Empleo","titulo":"PLAN DE EMPLEO PROVINCIAL DE LA DIPUTACION DE BADAJOZ 2026 -2027","titulo_claro":"Plan de Empleo Provincial 2026-2027: plazas de monitor deportivo y de mantenimiento","url":"https://montemolin.es/ver.php?pag=292","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":"2026-09-25","plazo_ejemplo":false},{"fecha":"2026-09-15","tema":"Impuestos","titulo":"AVISO PLAZO VOLUNTARIA PAGO I.A.E 2026","titulo_claro":"Pago voluntario del IAE de 2026: del 15 de septiembre al 16 de noviembre","url":"https://montemolin.es/ver.php?pag=291","oculto":false,"expediente":null,"plazo_inicio":"2026-09-15","plazo_fin":"2026-11-16","plazo_ejemplo":false},{"fecha":"2026-03-16","tema":"Ayudas","titulo":"SUBVENCIÓN CONCEDIDA EN LA CONVOCATORIA DEL PLAN DE EMPLEO PROVINCIAL DE LA DIPUTACION DE BADAJOZ 2025-2026","titulo_claro":"Plan de Empleo Provincial 2025-2026: 44.537,80 € de la Diputación para 7 contrataciones","url":"https://montemolin.es/ver.php?pag=289","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-02-04","tema":"Anuncios","titulo":"Información pùblica - Pliego de cláusulas administrativas particulares concesión de uso privativo gratuito de un bien de dominio público. 2026","titulo_claro":"Información pública: pliego para ocupar un espacio de la plaza con la barra de las fiestas de 2026","url":"https://montemolin.es/ver.php?pag=283","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2025-12-17","tema":"Anuncios","titulo":"ENCANTOS NAVIDEÑOS 2025","titulo_claro":"Encantos Navideños 2025: el 20 y el 27 de diciembre, a las 19:00, en la Plaza de la Constitución","url":"https://montemolin.es/ver.php?pag=285","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2025-05-15","tema":"Impuestos","titulo":"PUBLICACIÓN DEL CALENDARIO FISCAL DE LOS PERIODOS DE EXPOSICION PUBLICA DE PADRONES Y ANUNCIOS DE COBRANZA - EJERCICIO 2025","titulo_claro":"Calendario fiscal de 2025: cuándo se exponen los padrones y cuándo se cobra","url":"https://montemolin.es/ver.php?pag=282","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2024-12-23","tema":"Anuncios","titulo":"APROBACIÓN DEL PLAN DE IGUALDAD DE LOS EMPLEADOS PUBLICOS DEL AYUNTAMIENTO DE MONTEMOLIN.","titulo_claro":"Aprobado el Plan de Igualdad de las empleadas y los empleados públicos del Ayuntamiento","url":"https://montemolin.es/ver.php?pag=281","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2024-06-04","tema":"Anuncios","titulo":"Información pública- Pliego de clàusulas administrativas particulares concesión de uso privativo de un bien de dominio publico.","titulo_claro":"Información pública: pliego para ocupar un espacio de la Plaza de la Constitución en 2024","url":"https://montemolin.es/ver.php?pag=279","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2024-05-02","tema":"Impuestos","titulo":"Ampliación periodo de pago voluntario del impuesto de Vehiculos de tracción mecánica","titulo_claro":"Impuesto de vehículos: el pago en voluntaria se alarga hasta el 16 de mayo de 2024","url":"https://montemolin.es/ver.php?pag=278","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2024-03-06","tema":"Anuncios","titulo":"Calendario Fiscal 2024","titulo_claro":"Calendario fiscal de 2024, con un vídeo explicativo del OAR","url":"https://montemolin.es/ver.php?pag=277","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2023-12-04","tema":"Empleo","titulo":"OFERTA PLAZA PROFESOR .PROGRAMA P05.MODALIDAD A DE LENGUA EXTRANJERA INGLES.PROGRAMA APRENDIZAJE A LO LARGO DE LA VIDA","titulo_claro":"Oferta de una plaza de profesor de inglés en el programa «Aprendizaje a lo largo de la vida»","url":"https://montemolin.es/ver.php?pag=275","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2023-07-24","tema":"Anuncios","titulo":"ELECCIONES A CORTES GENERALES 23 DE JUNIO 2023","titulo_claro":"Elecciones generales de 2023: actas de escrutinio de Montemolín y de Pallares","url":"https://montemolin.es/ver.php?pag=272","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2023-07-12","tema":"Impuestos","titulo":"PLAZOS IBI 2023","titulo_claro":"Plazos del IBI de 2023","url":"https://montemolin.es/ver.php?pag=269","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2023-05-29","tema":"Anuncios","titulo":"ELECCIONES A LA ASAMBLEA DE EXTREMADURA 2023","titulo_claro":"Elecciones a la Asamblea de Extremadura de 2023: actas de escrutinio","url":"https://montemolin.es/ver.php?pag=266","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2023-05-29","tema":"Anuncios","titulo":"ELECCIONES LOCALES 2023-","titulo_claro":"Elecciones locales de 2023: actas de escrutinio de Montemolín y de Pallares","url":"https://montemolin.es/ver.php?pag=265","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2023-02-24","tema":"Anuncios","titulo":"Información pública- Pliego de clàusulas administrativas particulares concesión de uso privativo de un bien de dominio publico.","titulo_claro":"Información pública: pliego para ocupar un espacio de la plaza en 2023","url":"https://montemolin.es/ver.php?pag=263","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2022-12-23","tema":"Anuncios","titulo":"ENCANTOS NAVIDEÑOS Y XI CONVIVENCIA DE BANDAS,COROS Y CORALES","titulo_claro":"Encantos Navideños 2022 y XI Convivencia de bandas, coros y corales (el 26 de diciembre)","url":"https://montemolin.es/ver.php?pag=262","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2022-05-27","tema":"Anuncios","titulo":"CALENDARIO FISCAL 2022","titulo_claro":"Calendario fiscal de 2022","url":"https://montemolin.es/ver.php?pag=258","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2022-03-24","tema":"Anuncios","titulo":"Información pùblica - Pliego de cláusulas administrativas particulares concesión de uso privativo gratuito de un bien de dominio público.","titulo_claro":"Información pública: pliego para poner una barra de bebidas en 2022","url":"https://montemolin.es/ver.php?pag=256","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-12-30","tema":"Anuncios","titulo":"ELECCIONES AGRARIAS 2022","titulo_claro":"Elecciones agrarias de 2022: consulta del censo hasta el 14 de enero","url":"https://montemolin.es/ver.php?pag=252","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-12-01","tema":"Impuestos","titulo":"OAR - PLANIFICA","titulo_claro":"OAR Planifica: pagar los impuestos de todo el año en cuotas iguales","url":"https://montemolin.es/ver.php?pag=251","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-07-19","tema":"Impuestos","titulo":"PERIODO DE PAGO VOLUNTARIO. IBI 2021","titulo_claro":"Pago voluntario del IBI de 2021: evite recargos","url":"https://montemolin.es/ver.php?pag=244","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-05-25","tema":"Anuncios","titulo":"LICITACION PARA CONCESIÓN DEL SERVICIO DE CAFE BAR DEL HOGAR DEL PENSIONISTA DE SANTA MARIA DE NAVAS.","titulo_claro":"Licitación del servicio de café-bar del Hogar del Pensionista de Santa María de Navas","url":"https://montemolin.es/ver.php?pag=243","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-05-20","tema":"Anuncios","titulo":"LICITACION PARA LA ADQUISICIÓN CAJA RECOLECTORA DE CARGA TRASERA PARA EL CAMIÓN DEL SERVICIO MUNICIPAL DE BASURAS.","titulo_claro":"Licitación de una caja recolectora para el camión de la basura","url":"https://montemolin.es/ver.php?pag=242","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-05-20","tema":"Anuncios","titulo":"LICITACION PARA LA ADQUISICIÓN DE UN CAMIÓN RIGIDO PARA EL SERVICIO MUNICIPAL DE RECOGIDA DE R.S.U.","titulo_claro":"Licitación de un camión rígido para recoger los residuos urbanos","url":"https://montemolin.es/ver.php?pag=241","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-04-15","tema":"Anuncios","titulo":"CONCESIÓN ADMINISTRATIVA DE USO PRIVATIVO DE UN BIEN DE DOMINIO PUBLICO POR ADJUDICACIÓN DIRECTA.","titulo_claro":"Una oficina municipal de Santa María de Navas se cede a la Asociación de Defensa Sanitaria","url":"https://montemolin.es/ver.php?pag=238","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-03-09","tema":"Impuestos","titulo":"ANUNCIO DE COBRANZA DEL PADRON DE IMPUESTO VEHICULOS TRACCION MECANICA EJERCICIO 2021","titulo_claro":"Cobro del impuesto de vehículos de 2021","url":"https://montemolin.es/ver.php?pag=234","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2020-10-01","tema":"Ayudas","titulo":"CONVOCATORIA PÚBLICA AYUDAS LEADER CENTRO DESARROLLO COMARCAL TENTUDIA .EDLP 2014-2020","titulo_claro":"Ayudas LEADER del Centro de Desarrollo Comarcal de Tentudía: bases de las convocatorias VI y VII","url":"https://montemolin.es/ver.php?pag=231","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2020-09-01","tema":"Obras","titulo":"CONSULTA PUBLICA ANTEPROYECTO DE ORDENANZA REGULADORA DE LA TARJETA DE ESTACIONAMIENTO DE VEHICULOS PARA PERSONAS CON DISCAPACIDAD","titulo_claro":"Consulta pública: ordenanza de la tarjeta de estacionamiento para personas con discapacidad","url":"https://montemolin.es/ver.php?pag=229","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2020-07-09","tema":"Anuncios","titulo":"ANUNCIO DE LICITACION - EQUIPAMIENTO ESCÉNICO DEL AUDITORIO MUNICIPAL","titulo_claro":"Licitación del equipamiento escénico del Auditorio municipal","url":"https://montemolin.es/ver.php?pag=227","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false}]},"fiestas":[{"mes":2,"nombre":"San Blas y las Candelas","cuando":"2 y 3 de febrero. El 3 es fiesta local","mayor":false,"fecha_fija":"02-03"},{"mes":2,"nombre":"Carnaval","cuando":"Febrero o marzo","mayor":false,"fecha_fija":null},{"mes":5,"nombre":"San Isidro Labrador","cuando":"15 de mayo, fiesta local","mayor":false,"fecha_fija":"05-15"},{"mes":7,"nombre":"Santa María Magdalena, en Pallares","cuando":"22 de julio","mayor":false,"fecha_fija":"07-22"},{"mes":7,"nombre":"Fiestas patronales de Santiago Apóstol","cuando":"En torno al 25 de julio","mayor":true,"fecha_fija":"07-25"},{"mes":8,"nombre":"Fiesta del Guarrito","cuando":"Primera semana de agosto (en 2026, el 7 y el 8; fue la XXII edición)","mayor":false,"fecha_fija":null},{"mes":8,"nombre":"Fiesta del Emigrante, en Pallares","cuando":"Mediados de agosto (en 2026, del 10 al 12)","mayor":false,"fecha_fija":null},{"mes":8,"nombre":"Fiestas patronales de Santa María de Nava","cuando":"Finales de agosto (en 2026, del 25 al 28)","mayor":false,"fecha_fija":null},{"mes":9,"nombre":"Fiestas patronales de Pallares","cuando":"Principios de septiembre. El 4 de septiembre es fiesta local de Pallares","mayor":false,"fecha_fija":null},{"mes":12,"nombre":"Encantos navideños","cuando":"Diciembre, en la Plaza de la Constitución (en 2025, el 20 y el 27 a las 19:00)","mayor":false,"fecha_fija":null}],"servicios":{"ayuntamiento":[{"dias":[1,2,3,4,5],"de":"08:00","a":"14:00"}],"agente-de-empleo-y-desarrollo-local":[{"dias":[3],"de":"08:00","a":"15:00"}],"mancomunidad-de-tentudia":[{"dias":[1,2,3,4,5],"de":"08:00","a":"15:00"}]},"tramites_sede":17,"rutas":{"tramites":"tramites.html","avisos":"avisos.html","agenda":"agenda.html","noticia":"noticia-{id}.html","media":"media/"},"hoja":null,"tablon_json":"contenido/tablon.json","tablon_externo":true,"horizonte_dias":60,"v_datos":"37951663"}</script>
+<script src="js/vivo.js?v=4112cbcf" defer></script>
+<script src="js/main.js?v=2504b34e" defer></script>
+<script src="js/movimiento.js?v=daa5c706" defer></script>
+<script src="js/identidad.js?v=848289b2" defer></script>
+
+
+</body>
+</html>
+

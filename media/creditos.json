@@ -1,0 +1,66 @@
+{
+  "_leeme": "Crédito de cada foto de media/ (por nombre, sin .jpg). Las de «web municipal» son de montemolin.es (galería y repositorio) y SOLO valen para esta maqueta que se le enseña al Ayuntamiento: su aviso legal prohíbe reproducirlas sin autorización (pendiente: permiso o fotos propias). Las de Wikimedia Commons llevan su licencia. Faltan fotos de la Plaza de la Constitución, de las fiestas y del interior de la parroquia: se dejan los huecos diseñados.",
+  "vista-general": {
+    "titulo": "Vista general de Montemolín",
+    "autor": "Ayuntamiento de Montemolín (web municipal)",
+    "licencia": "Sin licencia declarada: solo para esta maqueta",
+    "url": "https://montemolin.es/galeria.php?album=1",
+    "nota": "Foto de galeria/20140220102608.jpg de la web municipal («Vista general Montemolín»)."
+  },
+  "castillo": {
+    "titulo": "Castillo de Montemolín",
+    "autor": "Ayuntamiento de Montemolín (web municipal)",
+    "licencia": "Sin licencia declarada: solo para esta maqueta",
+    "url": "https://montemolin.es/galeria.php?album=1",
+    "nota": "Foto de galeria/20140326124933.jpg de la web municipal («Castillo Montemolín»)."
+  },
+  "parroquia": {
+    "titulo": "Iglesia parroquial de la Purísima Concepción",
+    "autor": "Adolfobrigido",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:BA-Montemol%C3%ADn-Iglesia_parroquial.jpg",
+    "nota": "Subida a Commons el 13-01-2017."
+  },
+  "ermita-granada": {
+    "titulo": "Ermita de Nuestra Señora de la Granada",
+    "autor": "Ayuntamiento de Montemolín (web municipal)",
+    "licencia": "Sin licencia declarada: solo para esta maqueta",
+    "url": "https://montemolin.es/galeria.php?album=1",
+    "nota": "Foto de galeria/20140221125856.jpg de la web municipal («Ermita de la Granada»)."
+  },
+  "ermita-san-blas": {
+    "titulo": "Ermita de San Blas",
+    "autor": "Ayuntamiento de Montemolín (web municipal)",
+    "licencia": "Sin licencia declarada: solo para esta maqueta",
+    "url": "https://montemolin.es/galeria.php?album=1",
+    "nota": "Foto de galeria/20140326124753.jpg de la web municipal («Ermita de San Blas»)."
+  },
+  "iglesia-pallares": {
+    "titulo": "Iglesia de Santa María Magdalena de Pallares",
+    "autor": "Ayuntamiento de Montemolín (web municipal)",
+    "licencia": "Sin licencia declarada: solo para esta maqueta",
+    "url": "https://montemolin.es/galeria.php?album=4",
+    "nota": "Foto de galeria/20140326124700.jpg de la web municipal."
+  },
+  "santa-maria-nava": {
+    "titulo": "Santa María de Nava, vista desde lo alto",
+    "autor": "Ayuntamiento de Montemolín (web municipal)",
+    "licencia": "Sin licencia declarada: solo para esta maqueta",
+    "url": "https://montemolin.es/galeria.php?album=3",
+    "nota": "Foto de galeria/20140328134225.jpg de la web municipal."
+  },
+  "torre-santa-maria-nava": {
+    "titulo": "Torre de la iglesia de Santa María de Nava",
+    "autor": "Ayuntamiento de Montemolín (web municipal)",
+    "licencia": "Sin licencia declarada: solo para esta maqueta",
+    "url": "https://montemolin.es/galeria.php?album=3",
+    "nota": "Foto de galeria/20240808102718.jpg de la web municipal («Iglesias Santa María de Navas»)."
+  },
+  "pilar-redondo": {
+    "titulo": "Abrevadero de Pilar Redondo",
+    "autor": "Marbregal",
+    "licencia": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Montemol%C3%ADn_abrevadero_de_Pilar_Redondo.JPG",
+    "nota": "Subida a Commons el 25-06-2012."
+  }
+}

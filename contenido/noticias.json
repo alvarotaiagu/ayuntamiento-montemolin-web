@@ -1,0 +1,78 @@
+{
+  "_leeme": "Noticias. Campos: id (sale en la dirección: noticia-<id>.html), fecha, titulo, resumen, cuerpo (lista de párrafos), imagen (nombre en media/, sin .jpg) + imagen_alt, fuente {nombre, url}, fecha_aproximada (las de Facebook solo dan «hace 1 d»).",
+  "noticias": [
+    {
+      "id": "plan-empleo-2026-2027",
+      "fecha": "2026-09-18",
+      "titulo": "Plan de Empleo Provincial 2026-2027: 48.546 euros para contratar a personas en paro",
+      "resumen": "Las primeras plazas, de monitor deportivo y de mantenimiento, tuvieron plazo hasta el 25 de septiembre.",
+      "cuerpo": [
+        "La Diputación de Badajoz concedió al Ayuntamiento 48.546 euros del Plan de Empleo Provincial 2026-2027 (resolución del BOP del 18 de agosto de 2026). Con ese dinero se contratará a personas desempleadas mediante convocatoria de plazas.",
+        "Las dos primeras plazas son de monitor deportivo (bases aprobadas por el decreto 2026/242, de 18 de septiembre) y de mantenimiento (decreto 2026/243). El plazo para pedirlas terminó el 25 de septiembre de 2026."
+      ],
+      "fuente": {
+        "nombre": "Tablón de anuncios de montemolin.es: Plan de Empleo Provincial 2026-2027",
+        "url": "https://montemolin.es/ver.php?pag=292"
+      }
+    },
+    {
+      "id": "iae-2026-pago-voluntario",
+      "fecha": "2026-09-15",
+      "titulo": "Pago voluntario del IAE de 2026: del 15 de septiembre al 16 de noviembre",
+      "resumen": "Se paga con tarjeta o Bizum en la web del OAR, en el banco o en Correos.",
+      "cuerpo": [
+        "El periodo de pago en voluntaria del Impuesto sobre Actividades Económicas de 2026 empezó el 15 de septiembre y termina el 16 de noviembre.",
+        "Quien no tenga el recibo domiciliado puede pagar en las entidades bancarias colaboradoras, en la web del OAR (con tarjeta o con Bizum) o con giro postal en cualquier oficina de Correos, con la carta de pago del OAR.",
+        "Quien no la haya recibido puede pedirla antes del 16 de noviembre en ciudadania.oar@dip-badajoz.es (indicando el DNI), en el 924 210 700 o en cualquier oficina del OAR. No recibirla no exime de pagar."
+      ],
+      "fuente": {
+        "nombre": "Tablón de anuncios de montemolin.es: Aviso del plazo del IAE 2026",
+        "url": "https://montemolin.es/ver.php?pag=291"
+      }
+    },
+    {
+      "id": "martin-alvarez-buque-armada",
+      "fecha": "2026-09-04",
+      "titulo": "Un buque de la Armada llevará el nombre de Martín Álvarez, el granadero de Montemolín",
+      "resumen": "El Ayuntamiento lo celebra como una gran noticia para el pueblo.",
+      "cuerpo": [
+        "El Ayuntamiento celebra que un buque de la Armada llevará el nombre de Martín Álvarez, el infante de marina de Montemolín que se hizo famoso en la batalla del cabo de San Vicente, en 1797.",
+        "El 28 de agosto el Ayuntamiento difundió además que la Sala Histórica de la Base Naval de San Fernando tiene un rincón dedicado a Martín Álvarez."
+      ],
+      "imagen": "ermita-granada",
+      "imagen_alt": "Muro de piedra de la ermita de la Granada, junto a la que está el paseo con la estatua de Martín Álvarez",
+      "fuente": {
+        "nombre": "Facebook «Univ Pop Montemolín»",
+        "url": "https://www.facebook.com/upmontemolin"
+      }
+    },
+    {
+      "id": "itv-movil-octubre-2026",
+      "fecha": "2026-09-25",
+      "titulo": "La ITV móvil estará en Montemolín el 13 y el 14 de octubre",
+      "resumen": "En el polideportivo. Horario y cita, en el bando del Ayuntamiento.",
+      "cuerpo": [
+        "La unidad móvil de la ITV estará en Montemolín los días 13 y 14 de octubre de 2026, en el polideportivo.",
+        "Para más información hay que consultar el bando del Ayuntamiento."
+      ],
+      "fuente": {
+        "nombre": "Facebook «Univ Pop Montemolín»",
+        "url": "https://www.facebook.com/upmontemolin"
+      }
+    },
+    {
+      "id": "plan-empleo-2025-2026-balance",
+      "fecha": "2026-03-16",
+      "titulo": "Plan de Empleo Provincial 2025-2026: 44.537,80 euros y siete contrataciones",
+      "resumen": "Auxiliar de cocina, limpieza, mantenimiento, monitor deportivo y auxiliar de oficinas.",
+      "cuerpo": [
+        "La Diputación concedió al Ayuntamiento 44.537,80 euros del Plan de Empleo Provincial 2025-2026 (BOP del 3 de noviembre de 2025).",
+        "Con esa subvención se contrató a siete personas desempleadas: una auxiliar de cocina, dos de limpieza de edificios municipales, una de mantenimiento y limpieza en Santa María de Nava, un monitor deportivo para los tres núcleos, una auxiliar de oficinas y una persona de mantenimiento de obras e instalaciones."
+      ],
+      "fuente": {
+        "nombre": "Tablón de anuncios de montemolin.es: Subvención concedida del Plan de Empleo Provincial 2025-2026",
+        "url": "https://montemolin.es/ver.php?pag=289"
+      }
+    }
+  ]
+}
