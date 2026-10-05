@@ -3,7 +3,7 @@
 Maqueta de la web municipal del **Ayuntamiento de Montemolín** (Badajoz, 1.231 habitantes, INE 2025), hecha con la plantilla «Puerta abierta» v3 (`plantilla-ayuntamiento-puerta-abierta-web`) y con sus datos reales. Se le propone por correo.
 
 - **No es la web oficial.** Lleva en todas las páginas la banda «Propuesta de diseño… no es la web oficial» y `noindex, nofollow`.
-- **Sin publicar** (5-10-2026): vive solo en local. Con `?revision` sale el mando de versión y color.
+- **Publicada el 5-10-2026** en <https://alvarotaiagu.github.io/ayuntamiento-montemolin-web/> (repositorio `alvarotaiagu/ayuntamiento-montemolin-web`, GitHub Pages sobre `master`). Con `?revision` sale el mando de versión y color. `actualizar.yml` hará un commit diario del bot: `git pull --rebase origin master` antes de cada push.
 - Las fuentes de cada dato, el inventario de su web actual y sus errores están **fuera de esta carpeta**, en `../ayuntamiento-montemolin-bocetos/`:
   - `DATOS.md`;
   - `INVENTARIO.md`;
@@ -109,7 +109,7 @@ Lista completa en `ERRORES.md` §6. Los que cambian lo que se ve:
 
 ## Antes de entregar
 
-Ver `RESKIN.md` §9: pasar a `"propuesta": false` y `"indexar": true` solo cuando sea la web oficial en su dominio, quitar el mando con `scripts/quitar_mandos.py`, y volver a ejecutar `aplicar.mjs` y `verificar.mjs`. No se ha creado ningún repositorio ni se ha publicado nada para este municipio.
+Ver `RESKIN.md` §9: pasar a `"propuesta": false` y `"indexar": true` solo cuando sea la web oficial en su dominio, quitar el mando con `scripts/quitar_mandos.py`, y volver a ejecutar `aplicar.mjs` y `verificar.mjs`. Está publicada como maqueta (`noindex`); al venderla, ver el punto 4 de arriba.
 
 ## v3 (5-10-2026)
 
